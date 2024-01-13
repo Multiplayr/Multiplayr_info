@@ -1,36 +1,48 @@
-
-div .hello{
-    display: flex;
+.i {
+  padding: 1rem 2rem;
 }
-div .hello:before {
-    content:" ";
-    position: absolute;
-    bottom: -3px;
-    left:0;
-    height:3px;
-    width:100%;
-    border-radius: 25px;
-    transform: scaleX(0);
-    background: linear-gradient(135deg, #FA26CA 0%, #712AF9 100%);
-    transform-origin: right;
-    transition: transform 0.5s ease;
+.eff {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
 }
 
-div .hello:hover:before{
-    transform: scaleX(1) ;
-    transform-origin: left;
+.trans {
+  display: flex;
+}
+.trans:before {
+  content: " ";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+  transform-origin: right;
+  transition: transform 0.5s ease;
+}
+
+.trans:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.sp-btn {
+  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
 }
 
 .nav-hover {
-    right: 0;
-    width: 0;
-    border: 0;
-    height: 2px;
-    content: "";
-    bottom: 38px;
-    margin-left: 0;
-    position: absolute;
-    vertical-align: unset;
-    transition: .5s;
-    background: linear-gradient(135deg, #FA26CA 0%, #712AF9 100%);
-  }
+  right: 0;
+  width: 0;
+  border: 0;
+  height: 2px;
+  content: "";
+  bottom: 38px;
+  margin-left: 0;
+  position: absolute;
+  vertical-align: unset;
+  transition: 0.5s;
+  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+}
