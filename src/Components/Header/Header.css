@@ -1,0 +1,36 @@
+
+div .hello{
+    display: flex;
+}
+div .hello:before {
+    content:" ";
+    position: absolute;
+    bottom: -3px;
+    left:0;
+    height:3px;
+    width:100%;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: linear-gradient(135deg, #FA26CA 0%, #712AF9 100%);
+    transform-origin: right;
+    transition: transform 0.5s ease;
+}
+
+div .hello:hover:before{
+    transform: scaleX(1) ;
+    transform-origin: left;
+}
+
+.nav-hover {
+    right: 0;
+    width: 0;
+    border: 0;
+    height: 2px;
+    content: "";
+    bottom: 38px;
+    margin-left: 0;
+    position: absolute;
+    vertical-align: unset;
+    transition: .5s;
+    background: linear-gradient(135deg, #FA26CA 0%, #712AF9 100%);
+  }
