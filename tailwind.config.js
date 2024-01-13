@@ -17,6 +17,7 @@ module.exports = {
         white: '#ffffff',
         black: '#000000',
         bg: '#1a1135',
+        'diagonal-purple-pink': ['135deg', '#FA26CA', '#712AF9'],
       },
       borderRadius: {
         DEFAULT: '5px',
@@ -30,9 +31,11 @@ module.exports = {
       boxShadow: {
         DEFAULT: '0 0 20px 3px rgba(0, 0, 0, .05)',
       },
+      linearGradientColors: {
+        'diagonal-purple-pink': ['135deg', '#FA26CA', '#712AF9'],
+      },
     },
   },
   variants: {},
   plugins: [],
 }
-
