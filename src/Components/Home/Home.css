@@ -1,0 +1,121 @@
+.background-img {
+  position: relative;
+  inset: 0;
+  height: auto;
+  width: 100%;
+}
+
+.overlay-div {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.inner-div-left {
+  flex: 4;
+  padding: 20px;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.overlay-img {
+  max-width: 50%;
+  z-index: 2;
+  height: auto;
+  position: absolute;
+  top: calc(-70vh); /* Adjusted value to ensure overlay is within background */
+  left: calc(-70%); /* Adjusted value to ensure overlay is within background */
+  inset: 0;
+  animation: on-off 5s infinite linear;
+}
+
+.overlay-rot-img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin: 6% 32%;
+  inset: 0;
+  animation: rotation 30s infinite linear;
+}
+
+.inner-div-left h1 {
+  font-family: var(--headingFontFamily);
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 90px;
+  color: var(--whiteColor);
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.inner-div-left p {
+  margin: 20px 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #beb8cc;
+  line-height: 30px;
+}
+
+.inner-div-right {
+  flex: 3;
+  display: flex;
+  z-index: 5;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+
+.img-ani-scale {
+  height: 80%;
+  overflow: hidden;
+  animation: scale-up-down 30s linear infinite alternate;
+}
+
+@keyframes on-off {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes scale-up-down {
+  0% {
+    transform: scale(0.7) rotate(0) translateX(0);
+  }
+  25% {
+    transform: scale(0.75) rotate(15deg) translateX(5px);
+  }
+  50% {
+    transform: scale(0.8) rotate(0) translateX(-5px);
+  }
+  75% {
+    transform: scale(0.75) rotate(-15deg) translateX(-5px);
+  }
+  100% {
+    transform: scale(0.7) rotate(0deg) translateX(5px);
+  }
+  animation-timing-function: ease-in-out; /* Add this line */
+}
+

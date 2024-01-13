@@ -5,11 +5,14 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
+import Home from "./Components/Home/Home";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<App />} />
+      <Route path="home" element={<Home/>} />
+
       <Route path="*" element={<App />} />
       {/* <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
