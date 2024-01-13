@@ -21,6 +21,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bgColor);
   font-size: var(--fontSize);
+  
+
+}
+
+button{
+  font-family: var(--btnFontFamily);
 
 }
 
