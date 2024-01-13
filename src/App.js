@@ -1,16 +1,12 @@
-
 import './App.css';
+import { Working } from './Components/Working/Working';
 
 function App() {
 
-  console.log("From Gaurav")
-  console.log("From Raj")
 
   return (
     <>
-      <h1>
-        App Page
-      </h1>
+      <Working/>
     </>
   );
 }
