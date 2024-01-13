@@ -72,6 +72,7 @@
   height: 80%;
   overflow: hidden;
   animation: scale-up-down 30s linear infinite alternate;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes on-off {
@@ -116,6 +117,6 @@
   100% {
     transform: scale(0.7) rotate(0deg) translateX(5px);
   }
-  animation-timing-function: ease-in-out; /* Add this line */
+   /* Add this line */
 }
 
