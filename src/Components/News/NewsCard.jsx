@@ -10,7 +10,10 @@ export const NewsCard = ({ update: { imageSrc, createdAt, description, image_alt
         <div className={styles.news}>
           <p className={styles.createdAt}>{createdAt}</p>
           <h3>{description}</h3>
-          <p className={styles.readMore}>READ MORE</p>
+          <div className={styles.readMoreContainer}>
+            <p>READ MORE</p>
+          </div>
+          
         </div>
 
       </div>

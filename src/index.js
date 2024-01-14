@@ -8,15 +8,17 @@ import Layout from "./Components/Layout/Layout";
 import { Working } from "./Components/Working/Working";
 import { Partner } from "./Components/Partner/Partner";
 import { News } from "./Components/News/News";
+import { Contact } from "./Components/Contact/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<App />} />
       <Route path="*" element={<App />} />
-      {/* <Route path="about" element={<About />} />
+      <Route path="news" element={<News />} />
+      {/* <Route path="about" element={<About />} /> */}
       <Route path="contact" element={<Contact />} />
-      <Route path="user/:userid" element={<User />} /> */}
+      {/*    */}
 
     </Route>
   )
