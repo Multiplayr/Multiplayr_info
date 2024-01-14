@@ -17,6 +17,9 @@
     /* margin: 0px 807px; */
     padding: 0px 12px;
 }
+.container-feature:hover{
+    /* background-color: black; */
+}
 .section-title{
     margin: -5px auto 50px;
     text-align: center;
@@ -76,8 +79,8 @@ h2{
     flex-wrap: wrap; */
     
 }
-.single-item{
-     background: linear-gradient(135deg,#1F0D41 0%,rgba(26,9,58,.1) 100%);
+.single-item {
+    background: linear-gradient(135deg,#1F0D41 0%,rgba(26,9,58,.1) 100%);
     margin-bottom: 30px;
     border-radius: 30px;
     padding: 50px 40px;
@@ -88,7 +91,13 @@ h2{
     /* width: calc(50% - 20px); */
     /* width: 50%; */
     margin: 20px;
+    /* position: absolute; */
     
+}
+.single-item:hover{
+    background:linear-gradient(135deg, rgb(59, 32, 122) 0%,#1F0D41 60%);
+    transition: background-position 0.3s;
+    opacity: 0.1px;
 }
 .row-item{
     display: flex;
@@ -112,6 +121,9 @@ h2{
     /* text-decoration: underline; */
     margin-bottom: 20px;
 
+}
+.single-item h3:hover{
+    color: rgb(87, 33, 215) ;
 }
 .single-item p{
     display: block;
