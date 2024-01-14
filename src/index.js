@@ -9,6 +9,7 @@ import { Working } from "./Components/Working/Working";
 import { Partner } from "./Components/Partner/Partner";
 import { News } from "./Components/News/News";
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       {/* <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="user/:userid" element={<User />} /> */}
+      
 
     </Route>
   )

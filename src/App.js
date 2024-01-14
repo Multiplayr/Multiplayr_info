@@ -1,9 +1,5 @@
-import "./App.css";
-import { Teams } from "./Components/Teams/Teams";
-// import { Partner } from './Components/Partner/Partner';
-// import { Working } from './Components/Working/Working';
-import Home from "./Components/Home/Home";
-import { Working } from "./Components/Working/Working";
+import './App.css';
+import { Working } from './Components/Working/Working';
 
 function App() {
   return (
