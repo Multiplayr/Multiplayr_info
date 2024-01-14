@@ -33,7 +33,7 @@ html,body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   font-family:var(--fontFamily);
   -webkit-font-smoothing: antialiased;

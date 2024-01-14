@@ -4,8 +4,8 @@ import "./Home.css"; // Import your CSS file
 
 function Home() {
   return (
-    <div style={{overflow:"hidden"}}>
-      <div className="relative h-screen w-screen overflow-y-auto">
+    <div style={{ overflow: "hidden", width: "100%", height: "100%" }}>
+      <div className="relative h-full w-full max-h-fit max-w-fit overflow-hidden ">
         {/* Background Image */}
         <img
           className="background-img"
@@ -26,24 +26,20 @@ function Home() {
               src="/assets/images/banner/banner-shape-2.png"
               alt=""
             />
-            <img
-              className="overlay-img"
-              src="/assets/images/banner/banner-shape-2.png"
-              alt=""
-            />
 
             <img
               className="overlay-rot-img"
               src="/assets/images/banner/banner-shape-4.png"
               alt=""
             />
-
-            <h1 className="">Building The Metaverse For Next Gaming World</h1>
-            <p className="leading-tight text-wrap">
-              The Metaverse Is The Next Generation Of The Internet. As One Of
-              Its Earliest Explorers, You Will Help Fuel Its Expansion And Share
-              In The Benefits Of This Growth.
-            </p>
+            <div className="wrapper">
+              <h1 className="">Building The Metaverse For Next Gaming World</h1>
+              <p className="leading-tight text-wrap">
+                The Metaverse Is The Next Generation Of The Internet. As One Of
+                Its Earliest Explorers, You Will Help Fuel Its Expansion And
+                Share In The Benefits Of This Growth.
+              </p>
+            </div>
             <div className=" ml-3 mt-12 ">
               <Link
                 to="#"
@@ -62,7 +58,11 @@ function Home() {
           </div>
 
           <div className="inner-div-right">
-            <img className="img-ani-scale" src="/assets/images/banner/banner-img-1.png" alt="" />
+            <img
+              className="img-ani-scale"
+              src="/assets/images/banner/banner-img-1.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
