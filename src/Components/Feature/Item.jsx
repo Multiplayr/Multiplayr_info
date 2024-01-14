@@ -2,26 +2,27 @@ import React from 'react';
 import './Feature.css';
 
 
-const Item = () => {
+const Item = ({heading,Image,des}) => {
     return (
-        <div>
-            <div className='feature-item'>
-
-                <div className="single-item">
-                    <img src='assets/icon/icon-1.svg' alt='' />
-                    <h3>Fueling the Metaverse</h3>
+       
+<>
+{/* // <div> */}
+            {/* <div className='feature-item '> */}
+                <div className="single-item   ">
+                    <img src={Image} alt='' />
+                    <h3>{heading}</h3>
                     <p>
-                        The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.
+                        {des}
                     </p>
-                    <a href='#'> Read more</a>
+                    <a href='#' className='read-more'> Read more</a>
 
                 </div>
 
 
-            </div>
-
-
-        </div>
+            {/* </div> */}
+            {/* </div> */}
+</>
+       
     );
 };
 

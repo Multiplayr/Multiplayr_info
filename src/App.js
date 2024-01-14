@@ -8,11 +8,7 @@ function App() {
     <>
 
       <Working/>
-<<<<<<< HEAD
       
-=======
-
->>>>>>> a16b6afd2412039d5cd609f9d3ef1da86534c247
     </>
   );
 }
