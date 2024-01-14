@@ -3,7 +3,7 @@ import members from "../../Data/Team.json"
 import  styles  from './Teams.module.css'
 import { TeamCard } from './TeamCard'
 
-export const Teams = () => {
+ const Teams = () => {
   return (
     <section className={styles.container} >
       <div className={styles.head}>
@@ -22,3 +22,6 @@ export const Teams = () => {
     </section>
   )
 }
+
+
+export default Teams
