@@ -1,3 +1,14 @@
+
+.home-layout{
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .home-layout {
+    max-width: 100%;
+  }
+}
+
 .background-img {
   position: relative;
   inset: 0;
