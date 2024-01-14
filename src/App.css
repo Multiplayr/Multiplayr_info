@@ -12,6 +12,7 @@
 .overlay-img-png{
   height: 100%;
   width: 90%;
+  top: 0;
   contain: content;
   object-fit:contain;
   position:inherit;
