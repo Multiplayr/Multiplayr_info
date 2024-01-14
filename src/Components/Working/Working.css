@@ -33,6 +33,7 @@
   justify-content: center;
   gap: 10px;
   margin-bottom: 15px;
+  z-index: 3;
 }
 
 .head_about {
@@ -68,6 +69,7 @@
   gap: 50px;
   list-style: none;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .listItem {
@@ -95,6 +97,7 @@
   margin: 0 10%;
   max-height: 75%;
   max-width: 95%;
+  z-index: 3;
 }
 
 .imageContainer img {
@@ -166,7 +169,18 @@
     top: 6%;
     left:17%;
     /* inset: 0; */
-    z-index: 25;
+    z-index: 0;
+    animation: rotation 30s infinite linear;
+  }
+
+  .overlay-rot-img-c {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    right:7%;
+    /* inset: 0; */
+    z-index: 0;
     animation: rotation 30s infinite linear;
   }
 

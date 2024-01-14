@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from "./TeamCard.module.css"
 import 'font-awesome/css/font-awesome.min.css';
+import "./TeamCard.module.css";
 
 
 export const TeamCard = ({ member: { image, name, position } }) => {
   return (
-    <div className={styles.container} >
+    <div className={styles.container }>
 
       <div className={styles.image}>
       <img src={image} alt='projecttitle'/>

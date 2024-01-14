@@ -50,6 +50,12 @@ const Working = () => {
           alt=""
         />
 
+        <img
+          className="overlay-rot-img-c"
+          src="/assets/images/banner/banner-shape-4.png"
+          alt=""
+        />
+
         <div className="head">
           <h3 className="head_about">how it works</h3>
           <h1 className="head_title">The Ignition Of Metaverse</h1>
