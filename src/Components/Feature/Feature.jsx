@@ -8,21 +8,21 @@ const Feature = () => {
 
     const [items, setitems] = useState([{
         heading: "Fueling The Metaverse",
-        Image: "images/icon/icon-1.svg",
+        Image: "assets/images/icon/icon-1.svg",
         
         des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
 
     },
     {
         heading: "Interconnected Economies",
-        Image: "images/icon/icon-2.svg",
+        Image: "assets/images/icon/icon-2.svg",
        
         des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
 
     },
     {
         heading: "Non-fungible assets",
-        Image: "images/icon/icon-3.svg",
+        Image: "assets/images/icon/icon-3.svg",
         
         des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
 
@@ -34,7 +34,7 @@ const Feature = () => {
     
  {
             heading: "Incubation",
-            Image: "images/icon/icon-4.svg",
+            Image: "assets/images/icon/icon-4.svg",
             
             des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
     
@@ -42,7 +42,7 @@ const Feature = () => {
         {
     
             heading: "Initial Metaverse Offering",
-            Image: "images/icon/icon-5.svg",
+            Image: "assets/images/icon/icon-5.svg",
             
             des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
     
@@ -50,7 +50,7 @@ const Feature = () => {
         {
     
             heading: "Next Tier Metaverse Projects",
-            Image: "images/icon/icon-6.svg",
+            Image: "assets/images/icon/icon-6.svg",
             
             des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
     

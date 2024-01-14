@@ -1,17 +1,18 @@
 import "./App.css";
-import { Home, Working, Teams } from "./Components";
+import { Home, Working, Teams ,Roadmap} from "./Components";
 import Feature from "./Components/Feature/Feature";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
     <>
-
+      <Home/>
       <Working/>
-<<<<<<< HEAD
+      <Teams/>
+      <Feature/>
+      <Roadmap/>
       
-=======
-
->>>>>>> a16b6afd2412039d5cd609f9d3ef1da86534c247
     </>
   );
 }

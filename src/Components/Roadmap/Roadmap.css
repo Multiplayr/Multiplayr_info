@@ -37,7 +37,7 @@ h2{
 .container-roadmap{
     display: flex;
     flex-direction: row;
-    margin: 60px;
+    /* margin: 60px; */
     overflow: hidden;
 }
 .roadmap-item{
@@ -89,8 +89,9 @@ li::before {
     content: '\2022'; /* Unicode character for a bullet point (•) */
     position: absolute;
     left: 0;
-    width: 1.8em; /* Adjust the width as needed */
-    text-align: center;
+   
+    
+    /*text-align: center;
     /* border: 1px solid #fff;  */
             border-radius: 50%; 
 
@@ -103,37 +104,20 @@ li::before {
             border-radius: 50%;
             background-color: var(--whiteColor);
 }
-.owl-nav{
-    /* background: #869791; */
-    color: #fff;
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    margin: 5px;
-    padding: 4px 7px;
-    /* background: #D6D6D6; */
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 3px;
+.roadmap-slides{
+    margin: 60px;
 }
-.owl-prev,.owl-next{
-    padding-left: 18px;
-    left: 27px;
+.light-img{
+    top: 0;
     left: 0;
-    margin: 0;
-    padding: 0;
-    color: #fd8963;
+    z-index: -1;
+    opacity: .6;
     position: absolute;
-    text-transform: uppercase;
-    background-color: transparent;
-    font-size: var(--fontSize);
-    font-weight: 600;
-    cursor: pointer;
-    -webkit-user-select: none;
-    user-select: none;
 }
-.owl-next{
-    padding-right: 18px;
-    left: auto;
+.light-img-2{
+    bottom: 0;
     right: 0;
+    z-index: -1;
+    opacity: .6;
+    position: absolute;
 }

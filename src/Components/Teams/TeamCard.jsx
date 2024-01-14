@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./TeamCard.module.css"
-import 'font-awesome/css/font-awesome.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
 
 
 export const TeamCard = ({ member: { image, name, position } }) => {
