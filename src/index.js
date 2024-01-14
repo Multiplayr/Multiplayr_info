@@ -5,6 +5,9 @@ import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromE
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
+import { Working } from "./Components/Working/Working";
+import { Partner } from "./Components/Partner/Partner";
+import { News } from "./Components/News/News";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
