@@ -2,17 +2,26 @@
 .container{
     display: flex;
     flex-direction: column;
-    padding: 18px 24px;
+    padding: 18px 24px; 
     border-radius: 20px;
-    background: white 0.5;
-    background: linear-gradient(180deg, #c4cdf0 0%, #132A53 100%);
+    /* background: white 0.5; */
+    /* background: linear-gradient(180deg, #c4cdf0 0%, #132A53 100%); */
+    background: rgba(255,255,255,.1);
     /* box-shadow: 0 16px 14px 0 #04152d; */
     width: 250px;
     height: 250px;
     align-items: center;
     margin-right: 0px;
     margin-right: 0px;
+    transition: background 0.5s ease;
+    
 }
+
+.container:hover{
+    background: rgba(255,255,255,.3);
+    
+}
+
 
 .image{
     margin-bottom: 0px;

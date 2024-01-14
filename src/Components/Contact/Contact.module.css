@@ -1,0 +1,94 @@
+.container{
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.discordContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.discordContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 70%;
+    
+   
+    
+}
+
+
+
+.discordHeading{
+font-size: 96px;
+line-height: 1;
+margin-top: 10px;
+font-weight: 700;
+}
+
+.discordTitle h1{
+    margin-top: 0px;
+    font-size: 96px;
+    font-weight: 700;
+    background-color: #2600fc;
+    background-image: linear-gradient(26deg, #2600fc, #ff00ea);
+    margin-top: 0px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.discordContent p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.discordbtn{
+    background-color: #2600fc;
+    background-image: linear-gradient(26deg, #2600fc, #ff00ea);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 16px 33px;
+    border-radius: 30px;
+    letter-spacing: normal;
+    margin-top: 60px;
+}
+
+.discordbtn:hover{
+    background-image: linear-gradient(26deg, #3200fc, #ff00eaf0);
+    box-shadow: inset 0 0 0 2px 0 transparent;
+}
+
+
+.socialContiner{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+   
+    height: 700px;
+    width: 100%;
+}
+
+.socialItems{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+
+}
+
+.rightImage , .leftImage{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+}
