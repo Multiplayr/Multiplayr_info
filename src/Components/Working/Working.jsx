@@ -1,9 +1,10 @@
 import React from 'react'
+
 import "./Working.css"
 
-export const Working = () => {
+const Working = () => {
     return (
-        <div className='container'>
+        <div className='container' id="pico">
             <div className='head'>
                 <h3 className='head_about'>how it works</h3>
                 <h1 className='head_title'>The Ignition Of Metaverse</h1>
@@ -23,6 +24,7 @@ export const Working = () => {
                     <h2>Metaverse Marketplace</h2>
 
                 </div>
+                
 
 
                 <div className='image_about'>
@@ -41,3 +43,5 @@ export const Working = () => {
 
     )
 }
+
+export default Working;
