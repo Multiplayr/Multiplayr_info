@@ -1,5 +1,6 @@
-import './App.css';
-import { Working } from './Components/Working/Working';
+import "./App.css";
+import { Home, Working, Teams } from "./Components";
+import Feature from "./Components/Feature/Feature";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Home />
         <Working />
         <Teams />
+        <Feature/>
         <div>
           <img
             className="overlay-img-png"

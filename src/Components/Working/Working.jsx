@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./Working.css"
 
-export const Working = () => {
+const Working = () => {
     return (
         <div className='container' id="pico">
             <div className='head'>
@@ -43,3 +43,5 @@ export const Working = () => {
 
     )
 }
+
+export default Working;
