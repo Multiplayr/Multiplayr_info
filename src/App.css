@@ -9,14 +9,13 @@
   height: 200px; /* Adjust the height as needed */
 }
 
-.overlay-img-png{
+.overlay-img-png {
   position: absolute;
-  height: 100%;
-  width: 90%;
+  height:fit-content;
+  width: auto;
   top: 0;
-  contain: content;
-  object-fit:contain;
-  inset: 0;
+  right: 0; /* Align from the right side */
+  object-fit: cover;
   display: flex;
   /* justify-content: flex-end;
   align-items: flex-start; */

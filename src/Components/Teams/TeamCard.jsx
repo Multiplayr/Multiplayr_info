@@ -16,7 +16,7 @@ export const TeamCard = ({ member: { image, name, position } }) => {
 
       <div className={styles.social}>
         <Link to={"#"}>
-          <i className="fa fa-facebook" aria-hidden="true"></i>{" "}
+          <i className="fa fa-facebook" aria-hidden="true"></i>
         </Link>
         <Link to={"#"}>
           <i className="fa fa-instagram" aria-hidden="true"></i>
@@ -28,7 +28,7 @@ export const TeamCard = ({ member: { image, name, position } }) => {
           <i className="fa fa-linkedin" aria-hidden="true"></i>
         </Link>
       </div>
-      
+
       {/* <ul className={styles.skills}>
         {
           skills.map((skill, id) => {
