@@ -58,6 +58,12 @@ export default function Header() {
               <li>
                 <CustomNavLink to="/projects" title="Projects"></CustomNavLink>
               </li>
+              <li>
+                <CustomNavLink to="/teams" title="Teams"></CustomNavLink>
+              </li>
+              <li>
+                <CustomNavLink to="/news" title="News"></CustomNavLink>
+              </li>
             </ul>
           </div>
 

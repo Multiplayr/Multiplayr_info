@@ -1,0 +1,20 @@
+[
+    {   
+        "imageSrc": "assets/images/blog/blog-1.jpg",
+        "image_alt": "blog-1",
+        "createdAt": "27TH MAR, 2024",
+        "description": "Next Earth's Agenda and Other Updates In A Whole"
+    },
+    {  
+         "imageSrc": "assets/images/blog/blog-2.jpg",
+        "image_alt": "blog-2",
+        "createdAt": "27TH MAR, 2024",
+        "description": "Next Earth's Soon to Launch Staking and Other Updates"
+    },
+    {
+        "imageSrc": "assets/images/blog/blog-3.jpg",
+        "image_alt": "blog-3",
+        "createdAt": "27TH MAR, 2024",
+        "description": "Next Earth Token, NXTT, Set to Gain Value From Burn"
+    }
+]

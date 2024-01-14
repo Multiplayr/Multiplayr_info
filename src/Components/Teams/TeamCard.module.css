@@ -1,28 +1,33 @@
-@import "../../vars.css";
 
 .container{
     display: flex;
     flex-direction: column;
     padding: 18px 24px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #576CBC 0%, #132A53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
-    max-width: 345px;
+    border-radius: 20px;
+    background: white 0.5;
+    background: linear-gradient(180deg, #c4cdf0 0%, #132A53 100%);
+    /* box-shadow: 0 16px 14px 0 #04152d; */
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    margin-right: 0px;
+    margin-right: 0px;
 }
 
 .image{
-    margin-bottom: 26px;
+    margin-bottom: 0px;
 }
 
 .title{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 750;
+  
 }
 
 .description{
-    font-weight: 400;
-    font-size: 25px;
-    margin-top: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 2px;
 }
 
 .skills{
@@ -60,4 +65,25 @@
     background-color: var(--color-primary);
     padding: 1px 22px;
     border-radius: 100px;
+}
+
+
+
+.image{
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+
+.image img{
+  width: 110px;
+}
+
+
+.social i{
+  margin: 10px 5px;
 }
