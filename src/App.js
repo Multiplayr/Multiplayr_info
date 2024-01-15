@@ -10,6 +10,7 @@ function App() {
         <Working />
         <Teams />
         <Feature/>
+        <News/>
         <div>
           <img
             className="overlay-img-png"

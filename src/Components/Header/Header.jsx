@@ -56,7 +56,7 @@ export default function Header() {
                 <CustomNavLink to="/Contact" title="Contact Us"></CustomNavLink>
               </li>
               <li>
-                <CustomNavLink to="/projects" title="Projects"></CustomNavLink>
+                <CustomNavLink to="/Partner" title="Partner"></CustomNavLink>
               </li>
               <li>
                 <CustomNavLink to="/teams" title="Teams"></CustomNavLink>

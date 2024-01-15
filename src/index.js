@@ -11,7 +11,8 @@ import {
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
-import { Home, Working, Teams } from "./Components";
+import { Home, Working, Teams, Partner } from "./Components";
+import {News} from "./Components/News/News"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,8 +20,11 @@ const router = createBrowserRouter(
       <Route path="" element={<Navigate to="/home" />} />
       <Route path="home" element={<Home />} />
       <Route path="working" element={<Working />} />
+      <Route path="" element={<News/>} />
+
 
       <Route path="*" element={<App />} />
+
 
       {/* <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
