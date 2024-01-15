@@ -85,7 +85,7 @@ h2{
 
     
 }
-li::before {
+.roadmap-item ul li::before {
     content: '\2022'; /* Unicode character for a bullet point (•) */
     position: absolute;
     left: 0;

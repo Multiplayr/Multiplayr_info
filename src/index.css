@@ -18,15 +18,33 @@
   --headingFontFamily: "Changa", sans-serif;
   --btnFontFamily: "Ubuntu", sans-serif;
   --primaryColor: #712af9;
+  /* --primaryColor: #171717; */
   --secondaryColor: #FA26CA;
   --paragraphColor: #beb8cc;
   --whiteColor: #ffffff;
   --blackColor: #000000;
   --bgColor: #1a1135;
+  /* --bgColor: #171717; */
   --borderRadius: 5px;
   --transition: .5s;
   --fontSize: 16px;
   --boxShadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+}
+
+.ROOTFORMULTIPLAYR{
+  --lqd-color-primary: #b7fd1f;
+  --lqd-body-text-color: rgba(255, 255, 255, .47);
+  --lqd-color-link: #5b7bfb;
+  --lqd-color-link-hover: #181b31;
+  --lqd-color-gradient-start: #f42958;
+  --lqd-color-gradient-stop: #e4442a;
+  --lqd-color-dark: #171717;
+  --lqd-color-slate-900: #262626;
+  --lqd-color-gray-500: #818181;
+  --lqd-color-gray-700: #cbcbcb;
+  --lqd-color-gray-800: #1c1c1e;
+  --lqd-color-gray-900: #141414;
+  --lqd-color-footer: #1a1a1a;
 }
 
 html,body {

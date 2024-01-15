@@ -4,7 +4,7 @@ import RoadMapItem from './RoadMapItem';
 import Slider from "react-slick";
 
 
-const Raoadmap = () => {
+const Roadmap = () => {
     const data = ([
         {
             l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
@@ -121,4 +121,4 @@ const Raoadmap = () => {
     );
 };
 
-export default Raoadmap;
+export default Roadmap;

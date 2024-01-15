@@ -17,6 +17,7 @@ module.exports = {
         white: '#ffffff',
         black: '#000000',
         bg: '#1a1135',
+        // bg: '#171717',
         'diagonal-purple-pink': ['135deg', '#FA26CA', '#712AF9'],
       },
       borderRadius: {

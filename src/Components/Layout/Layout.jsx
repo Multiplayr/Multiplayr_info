@@ -10,7 +10,7 @@ function Layout() {
     <>
     <Header/>
     {/* <Feature/> */}
-    <Outlet/>
+    <Outlet/> 
     
 
     </>

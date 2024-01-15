@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"; // Import your CSS file
 
-function Home() {
+function Home() { 
   return (
     <div className="home-layout">
       <div className="relative h-full w-full max-h-fit max-w-fit overflow-hidden ">
