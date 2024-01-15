@@ -1,23 +1,18 @@
 import "./App.css";
-import { Home, Working, Teams } from "./Components";
+import { Home, Working, Teams ,Roadmap} from "./Components";
 import Feature from "./Components/Feature/Feature";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
     <>
-      <div className="relative flex flex-col">
-        <Home />
-        <Working />
-        <Teams />
-        <Feature/>
-        <div>
-          <img
-            className="overlay-img-png"
-            src="/assets/images/banner/banner-shape-5.png"
-            alt=""
-          />
-        </div>
-      </div>
+      <Home/>
+      <Working/>
+      <Teams/>
+      <Feature/>
+      <Roadmap/>
+      
     </>
   );
 }
