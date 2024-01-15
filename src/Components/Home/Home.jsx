@@ -6,7 +6,6 @@ import { HeadingSection } from "../Common";
 function Home() {
   return (
     <div className="home-layout">
-
       <div className="relative h-full w-full max-h-fit max-w-fit overflow-hidden ">
         {/* Background Image */}
         <img
@@ -60,11 +59,15 @@ function Home() {
           </div>
 
           <div className="inner-div-right">
-            <img
-              className="img-ani-scale"
-              src="/assets/images/banner/banner-img-1.png"
-              alt=""
-            />
+            <div className="banner-img-div">
+              <img
+                className="img-ani-scale"
+                src="/assets/images/banner/banner-img-1.png"
+                alt=""
+              />
+
+             
+            </div>
           </div>
         </div>
       </div>

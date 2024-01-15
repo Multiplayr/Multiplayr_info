@@ -61,7 +61,9 @@ const Feature = () => {
 
     return (
         <div className='feature'>
-        <HeadingSection type="features" title="capital id radical"/>
+
+        <HeadingSection type={"features"} title={"capital id radical"}/>
+
             <div className="container-feature">
                 {/* <div className="section-title">
                     <span className='feature-key'>KEY FEATURES</span>
