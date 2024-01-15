@@ -1,14 +1,13 @@
-
-
 :root {
     --headingFontFamily: "Changa", sans-serif;
 }
+
 .feature{
     /* padding: 120px 0px 90px; */
-    padding-bottom: 90px;
-    padding-top: 120px;
+    /* padding-bottom: 90px;
+    padding-top: 120px; */
     background-color: #140c2d73;
-    position: relative;
+    position: relative; 
     z-index: 1;
     box-sizing: border-box;
     display: block;
@@ -20,7 +19,7 @@
 .container-feature:hover{
     /* background-color: black; */
 }
-.section-title{
+/* .section-title{
     margin: -5px auto 50px;
     text-align: center;
     position: relative;
@@ -42,9 +41,9 @@ h2{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-family: var(--headingFontFamily);
-    /* font-family: var(--fontFamily); */
+    /* font-family: var(--fontFamily); 
     font-weight: 600;
-}
+} */
 .row{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -60,7 +59,7 @@ h2{
     /* flex: 0 0 auto; */
     /* justify-content: center; */
     padding: 20px;
-    margin: 50px;
+    margin: 0px 50px;
     /* width: 100%; */
     
     /* padding: 0px 12px ; */

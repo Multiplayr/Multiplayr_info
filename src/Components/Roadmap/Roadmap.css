@@ -1,9 +1,9 @@
 .roadmap-area{
     position: relative;
     z-index: 1;
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
-.roadmap-container{
+.roadmap-container{ 
     max-width: 1920px;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -27,7 +27,7 @@
     font-family: var(--headingFontFamily);
     font-weight: 600;
 }
-h2{
+.section-title h2{
     font-size: 55px;
     margin-bottom: 0;
     /* font-weight: 600; */

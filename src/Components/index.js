@@ -5,5 +5,6 @@ import Feature from './Feature/Feature';
 import {Contact}  from './Contact/Contact';
 import Roadmap from './Roadmap/Roadmap';
 import {News} from "./News/News"
+import {Partner } from "./Partner/Partner"
 
-export { Working, Home, Teams ,Feature,Contact, News,Roadmap};
+export { Working, Home, Teams ,Feature,Contact, News,Roadmap,Partner};

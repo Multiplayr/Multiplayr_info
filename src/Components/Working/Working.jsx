@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./Working.css";
 import ImageContainer from "./ImageContainer";
+import { HeadingSection } from "../Common";
 
 const Working = () => {
   const [selectedBtn, setSelectedBtn] = useState(0);
@@ -55,11 +56,11 @@ const Working = () => {
           src="/assets/images/banner/banner-shape-4.png"
           alt=""
         />
-
-        <div className="head">
+        <HeadingSection type={"how it works"} title={"The Ignition Of Metaverse"}/>
+        {/* <div className="head">
           <h3 className="head_about">how it works</h3>
           <h1 className="head_title">The Ignition Of Metaverse</h1>
-        </div>
+        </div> */}
 
         <ul className="listItems">
           <li

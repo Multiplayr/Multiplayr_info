@@ -2,6 +2,8 @@ import React from 'react';
 import './Feature.css';
 import Item from '../Feature/Item';
 import { useState } from 'react';
+import { HeadingSection } from '../Common';
+
 
 
 const Feature = () => {
@@ -27,7 +29,6 @@ const Feature = () => {
         des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
 
     },
-       
    
     ]);
     const [items2, setitems2] = useState([
@@ -60,11 +61,12 @@ const Feature = () => {
 
     return (
         <div className='feature'>
+        <HeadingSection type="features" title="capital id radical"/>
             <div className="container-feature">
-                <div className="section-title">
+                {/* <div className="section-title">
                     <span className='feature-key'>KEY FEATURES</span>
-                    <h2><b>Access The Future</b></h2>
-                </div>
+                    <h2><b>Access The Future</b></h2> 
+                </div> */}
 
                 <div class="row">
                     {/* <Item /> */}
