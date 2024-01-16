@@ -66,15 +66,19 @@ h2{
   background-color: #1c1c1e;
   margin-bottom: 30px;
   border-radius: 30px;
-  padding: 50px 40px;
+  padding: 50px 50px;
   width: 30%;
   box-sizing: border-box;
-  margin: 20px;
+  margin: 10px;
+  min-width: 300px;
+  overflow: hidden;
 }
 
 .single-item:hover {
-  background:var(--mp-grayGrad);
+  background:var(--mp-grayGradT);
+  scale: 1.04 ;
   transition: background-position 0.5s ease-in-out;
+  transition: scale 0.3s ease-in;
 }
 
 .row-item {
@@ -105,11 +109,13 @@ h2{
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   margin-bottom: 20px;
   text-wrap: wrap;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.single-item h3:hover {
+/* .single-item h3:hover {
   color: rgb(87, 33, 215);
-}
+} */
 
 .single-item p {
   display: block;
@@ -119,20 +125,21 @@ h2{
   margin-inline-end: 0px;
   text-wrap: wrap;
   color: var(--paragraphColor);
-  font-size: var(--fontSize);
+  font-size: 16px;
   margin-bottom: 15px;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
 .read-more {
+  display: hidden;
   background-color: transparent;
   transition: var(--transition);
-  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+  /* background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: var(--whiteColor);
   background-clip: text;
-  display: inline-block;
+  /* display: inline-block; */
   letter-spacing: 0.1em;
   position: relative;
   z-index: 1;

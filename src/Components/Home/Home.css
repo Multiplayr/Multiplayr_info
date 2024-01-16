@@ -36,7 +36,7 @@
 .inner-div-left {
   flex: 4;
   padding: 20px;
-  margin: 10px 20px;
+  margin: 10px 20px; 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -46,7 +46,7 @@
 .overlay-img {
   max-width: 50%;
   opacity: 0.7;
-  z-index: 2;
+  z-index: -1;
   height: auto;
   position: absolute;
   inset: 0;
@@ -96,21 +96,28 @@
   display: flex;
   z-index: 5;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: end;
+  align-items: center;
   /* background-color: aqua; */
 }
 
 .banner-img-div{
   position: relative;
+  
 }
 
 
 
 .img-ani-scale {
-  height: 80%;
+  position: relative;
+  bottom: -70px;
+  right: 5rem;
+  height: 38rem;
+  margin: 0px auto;
+  width:auto;
   overflow: hidden;
-  animation: scale-up-down 30s linear infinite alternate;
-  animation-timing-function: ease-in-out;
+  /* animation: scale-up-down 30s linear infinite alternate; */
+  /* animation-timing-function: ease-in-out; */
 }
 
 @keyframes on-off {

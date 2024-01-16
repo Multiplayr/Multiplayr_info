@@ -12,7 +12,7 @@ const Item = ({heading,Image,des}) => {
                     <img src={Image} alt='' />
                     <h3>{heading}</h3>
                     <p>
-                        {des.length<90? "smaller than 90":des.length}
+                        {des.length<90? des:des}
                     </p>
                     <a href='#' className='read-more'> Read more</a>
 

@@ -44,10 +44,10 @@ function Home() {
               </Link>
 
               <Link
-                to="#"
-                className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                  to={"https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"}
+                className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2 focus:outline-none z-50"
               >
-                Get started
+                Whitepaper
               </Link>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Home() {
             <div className="banner-img-div">
               <img
                 className="img-ani-scale"
-                src="/assets/images/banner/banner-img-1.png"
+                src="/assets/images/banner/multiplayr-character.png"
                 alt=""
               />
 

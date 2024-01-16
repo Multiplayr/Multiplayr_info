@@ -33,9 +33,9 @@ export default function Header() {
               <li>
                 <CustomNavLink to="/whatyouget" title="What You Get"></CustomNavLink>
               </li> */}
-              <li>
+              {/* <li>
                 <CustomNavLink to="/Contact" title="Contact Us"></CustomNavLink>
-              </li>
+              </li> */}
               {/* <li>
                 <CustomNavLink to="/projects" title="Projects"></CustomNavLink>
               </li>
@@ -46,7 +46,7 @@ export default function Header() {
                 <CustomNavLink to="/news" title="News"></CustomNavLink>
               </li>
             </ul>
-          </div>
+          </div> 
 
           <div className="flex items-center lg:order-2">
             <Link

@@ -1,11 +1,15 @@
 
 
 .container{
-    /* margin-top: 76px; */
+
+
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
    
 
 }
@@ -14,20 +18,23 @@
 
 .teams{
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    /* display: flex; */
+    /* flex-direction: row;  */
+    /* flex-wrap: wrap;  */
+     justify-content: space-between;
+    /* gap: 20px; */
+    
     width: 100%;
-    padding: 10px 70px;
+    /* padding-left: 30px; */
+    /* padding: 10px 70px; */
+    
     
 
 }
 
 
 
-/* heading of teams*/
+
 
 .head{
   display: flex;

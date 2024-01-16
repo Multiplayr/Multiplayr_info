@@ -32,7 +32,8 @@
   height: 3px;
   width: 100%;
   left: 0;
-  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+  /* background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%); */
+  background: var(--mp-primaryGrad);
   border-radius: 25px;
   transform: scaleX(0);
   transform-origin: right;
@@ -56,7 +57,8 @@
   width: 100%;
   border-radius: 25px;
   transform: scaleX(0);
-  background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+  /* background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%); */
+  background: var(--mp-primaryGrad);
   transform-origin: right;
   transition: transform 0.5s ease;
 }
