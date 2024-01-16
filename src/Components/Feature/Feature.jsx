@@ -76,7 +76,7 @@ const Feature = () => {
           {/* <div className="section-title">
                     <span className='feature-key'>KEY FEATURES</span>
                     <h2><b>Access The Future</b></h2> 
-                </div> */}
+                </div> */} 
 
           <div class="row">
             {/* <Item /> */}

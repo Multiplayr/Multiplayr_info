@@ -17,7 +17,7 @@ function App() {
       <Teams/>
       <News/>
       
-      
+      {/* <CursorFollower/> */}
       <LineOnWebpage/>
        
       </div>
