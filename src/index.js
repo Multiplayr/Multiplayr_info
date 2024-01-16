@@ -11,7 +11,7 @@ import {
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
-import { Contact, Home, News, Working} from "./Components";
+import { Contact, Home, News, Working,Partner} from "./Components";
 
 
 const router = createBrowserRouter(
