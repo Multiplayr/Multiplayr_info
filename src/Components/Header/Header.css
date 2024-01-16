@@ -70,10 +70,6 @@
   background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
 }
 
-.sp-btn2 {
-  background: linear-gradient(90deg, rgba(177,253,31,1) 0%, rgba(222,253,29,1) 50%, rgba(252,201,69,1) 100%);
-}
-
 .nav-hover {
   right: 0;
   width: 0;

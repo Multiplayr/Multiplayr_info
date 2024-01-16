@@ -60,7 +60,11 @@ export default function Header() {
 
             <Link
               to="https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"
+<<<<<<< HEAD
               className="sp-btn2 text-[#e4442a] font-heading focus:ring-4 font-semibold rounded-lg text-sm px-6  lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none"
+=======
+              className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-sm px-6  lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none"
+>>>>>>> 4ca6daae83b388120d10ef4c516d8e1889d7634c
             >
               Whitepaper
             </Link>
