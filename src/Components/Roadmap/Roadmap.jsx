@@ -108,8 +108,8 @@ const Roadmap = () => {
   return (
     <div className="roadmap-area">
       <div className="roadmap-container">
-        <img className="light-img" src="assets/images/features-shape-1.png" />
-        <img className="light-img-2" src="assets/images/features-shape-1.png" />
+        <img className="light-img" src="assets/images/banner/banner-shape-2-1.png" />
+        <img className="light-img-2" src="assets/images/banner/banner-shape-2-1.png" />
         {/* <div className="section-title">
                     <span className='top-title'>ROADMAP</span>
                     <h2><b>See Whats Waiting For You</b></h2>

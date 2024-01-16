@@ -35,7 +35,7 @@ const Working = () => {
       <div className="container" id="pico">
         <img
           className="overlay-rot-img-b"
-          src="/assets/images/banner/banner-shape-4.png"
+          src="/assets/images/banner/banner-shape-4-1.png"
           alt=""
         />
 
@@ -47,14 +47,14 @@ const Working = () => {
 
         <img
           className="working-overlay-img"
-          src="/assets/images/banner/banner-shape-2.png"
+          src="/assets/images/banner/banner-shape-2-1.png"
           alt=""
         />
-        <img
+        {/* <img
           className="working-overlay-img"
           src="/assets/images/banner/banner-shape-2.png"
           alt=""
-        />
+        /> */}
         <HeadingSection
           type={"how it works"}
           title={"The Ignition Of Metaverse"}
