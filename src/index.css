@@ -42,6 +42,7 @@
   --mp-secondaryGrad: linear-gradient(90deg, #1c1c1e 0%, #171717 100%);
 
   --mp-grayGrad: linear-gradient(90deg, #343a40 0%, #1c1c1e 100%);
+  --mp-grayGradT: linear-gradient(0deg,#1c1c1e  0%, #343a40 100%);
 }
 
 .ROOTFORMULTIPLAYR{
@@ -95,6 +96,7 @@ code {
   color: #171717;
   background: linear-gradient(90deg, #b7fd20 0%, #d7ef59 100%);
   background: linear-gradient(90deg, #1c1c1e 0%, #171717 100%);
+  background: linear-gradient(90deg, #39393de6 0%, #1c1c1e 100%);
 
 }
 
