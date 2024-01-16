@@ -5,7 +5,7 @@
     
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
 
@@ -27,7 +27,23 @@
    
     
 }
-
+.contactHead{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    padding: 40px;
+    width: 300px;
+    color: #ff00ea;
+}
+.star_1{
+    /* height: 20px;
+    top: 0%;
+    left: 0;
+    display: inline-flex;
+    animation: bounce 3s linear 0s infinite; */
+    /* color: var(--colors-text-primary)!important; */
+    /* color: #3200fc; */
+}
 
 
 .discordHeading{
@@ -41,8 +57,9 @@ font-weight: 700;
     margin-top: 0px;
     font-size: 96px;
     font-weight: 700;
-    background-color: #2600fc;
-    background-image: linear-gradient(26deg, #2600fc, #ff00ea);
+    background-color: #b7fd20;
+    /* background-image: linear-gradient(26deg, #2600fc, #ff00ea); */
+    /* background:   #b7fd20; */
     margin-top: 0px;
     background-clip: text;
     -webkit-background-clip: text;
@@ -56,39 +73,83 @@ font-weight: 700;
 }
 
 .discordbtn{
-    background-color: #2600fc;
-    background-image: linear-gradient(26deg, #2600fc, #ff00ea);
+    background-color: #b7fd20;
+    background-image: #b7fd20;
     font-size: 17px;
     font-weight: 600;
     padding: 16px 33px;
     border-radius: 30px;
     letter-spacing: normal;
     margin-top: 60px;
+    color: black;
 }
 
-.discordbtn:hover{
+/* .discordbtn:hover{
     background-image: linear-gradient(26deg, #3200fc, #ff00eaf0);
     box-shadow: inset 0 0 0 2px 0 transparent;
-}
+} */
 
 
-.socialContiner{
-    display: grid;
-    grid-template-rows: 33% 33% 33%;
-   
-    height: 700px;
+.socialContainer{
+    /* display: grid; */
+    display: flex;
+    /* grid-template-rows: 33% 33% 33%; */
+    flex-direction: row;
+    justify-content: center;
+    
+    /* height: 700px; */
     width: 100%;
+    height: 400px;
+    bottom: 0;
+    margin-top: 100px ;
 }
 
 .socialItems{
-    background-color: red;
-    height: 300px;
-    width: 300px;
+    /* background-color: red; */
+    /* height: 300px;
+    width: 300px; */
+    margin-bottom: 0!important;
+    display: flow-root;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 
 }
+.socialIcons{
+    /* width: 150px; */
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    /* font-size: large; */
+    color: white;
+    /* cursor: pointer; */
+}
+.socialIcons i{
+    font-size: 40px;
+    cursor: pointer;
+    margin: 20px;
+}
 
-.rightImage , .leftImage{
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+ .condition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    font-weight: 500;
+    
+}
+.reserved{
+    display: flex;
+    justify-content: center;
+}
+/* .rightImage , .leftImage{
     width: 100px;
     height: 100px;
     background-color: wheat;
-}
+} */

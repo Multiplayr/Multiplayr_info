@@ -19,13 +19,13 @@ function Home() {
             {/* Overlay Image */}
             <img
               className="overlay-img"
-              src="/assets/images/banner/banner-shape-1.png"
+              src="/assets/images/banner/banner-shape-1-1.png"
               alt=""
             />
            
             <img
               className="overlay-rot-img"
-              src="/assets/images/banner/banner-shape-4.png"
+              src="/assets/images/banner/banner-shape-4-1.png"
               alt=""
             />
             <div className="wrapper">

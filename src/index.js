@@ -11,14 +11,14 @@ import {
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
-import { Contact, Home, News, Working} from "./Components";
+import { Contact, Home, News, Working,Partner} from "./Components";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<App/>} />
-      <Route path="contact" element={<Contact />} />
+      {/* <Route path="contact" element={<Contact />} /> */}
       <Route path="news" element={<News />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Route>
