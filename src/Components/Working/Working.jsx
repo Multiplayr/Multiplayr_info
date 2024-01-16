@@ -44,6 +44,17 @@ const Working = () => {
           src="/assets/images/banner/banner-shape-4.png"
           alt=""
         />
+
+        <img
+          className="working-overlay-img"
+          src="/assets/images/banner/banner-shape-2.png"
+          alt=""
+        />
+        <img
+          className="working-overlay-img"
+          src="/assets/images/banner/banner-shape-2.png"
+          alt=""
+        />
         <HeadingSection
           type={"how it works"}
           title={"The Ignition Of Metaverse"}
@@ -74,13 +85,13 @@ const Working = () => {
             <span className="eff-a"></span>
           </div>
           <div className="working-eff">
-          <li
-            className={`listItem ${selectedBtn == 2 ? "select-focus" : ""}`}
-            onClick={() => setSelectedBtn(2)}
-          >
-            Tournament Automation
-          </li>
-          <span className="eff-a"></span>
+            <li
+              className={`listItem ${selectedBtn == 2 ? "select-focus" : ""}`}
+              onClick={() => setSelectedBtn(2)}
+            >
+              Tournament Automation
+            </li>
+            <span className="eff-a"></span>
           </div>
         </ul>
         <ImageContainer
