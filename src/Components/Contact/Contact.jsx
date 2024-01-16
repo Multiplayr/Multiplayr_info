@@ -21,7 +21,7 @@ const Contact = () => {
                         <div className={styles.discordTitle}>
                             <h1>DISCORD</h1>
                         </div>
-                        <p>Invest and manage all your NFTs at one place</p>
+                        <p>Build your Team and Conquer the World</p>
 
                         <button className={styles.discordbtn}>Join via Discord</button>
 
