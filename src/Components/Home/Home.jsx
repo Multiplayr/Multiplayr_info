@@ -19,17 +19,10 @@ function Home() {
             {/* Overlay Image */}
             <img
               className="overlay-img"
-              src="/assets/images/banner/banner-shape-2.png"
+              src="/assets/images/banner/banner-shape-1.png"
               alt=""
             />
-            <img
-              className="overlay-img"
-              src="/assets/images/banner/banner-shape-2.png"
-              alt=""
-            />
-
-            
-
+           
             <img
               className="overlay-rot-img"
               src="/assets/images/banner/banner-shape-4.png"
@@ -52,7 +45,7 @@ function Home() {
 
               <Link
                 to="#"
-                className="sp-btn2 text-[#e4442a] font-heading focus:ring-4 font-semibold rounded-lg text-base px-8 lg:px-10 py-3 lg:py-3.5 mr-2 focus:outline-none"
+                className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2 focus:outline-none"
               >
                 Get started
               </Link>

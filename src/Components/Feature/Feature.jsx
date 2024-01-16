@@ -76,13 +76,13 @@ const Feature = () => {
           {/* <div className="section-title">
                     <span className='feature-key'>KEY FEATURES</span>
                     <h2><b>Access The Future</b></h2> 
-                </div> */}
+                </div> */} 
 
           <div class="row">
             {/* <Item /> */}
             <div className="row-item">
               {items.map((item) => (
-                <Item
+                <Item 
                   heading={item.heading}
                   Image={item.Image}
                   des={item.des}
