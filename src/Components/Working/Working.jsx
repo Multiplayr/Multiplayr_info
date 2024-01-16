@@ -9,36 +9,24 @@ const Working = () => {
 
   const a = [
     {
-      title: " Metaverse Marketplace",
-      src: "assets/images/works/workImage1.jpg",
+      title: "targated discovery",
+      src: "assets/images/screen/discovery.png",
 
-      des: `A Gamified Marketplace Dedicated To The Metaverse And Gaming
-    Assets. The Metaverse Marketplace Allows Users To Trade,
-    Auction, And Rent Virtual Ownership Assets From Various
-    Metaverse And Gaming Projects. The Metaverse Is The Next
-    Generation Of The Internet.`,
+      des: `Discover feature for teams, players, tournaments, jobs, and coaches based on user specifications. For eg: You can search players who speak the same language, timing, region, MMR (game ranking system) and more.`,
     },
 
     {
-      title: " Launchpad",
-      src: "assets/images/works/workImage2.jpg",
+      title: "ranking system",
+      src: "assets/images/screen/ranking.png",
 
-      des: `A Gamified Marketplace Dedicated To The Metaverse And Gaming
-    Assets. The Metaverse Marketplace Allows Users To Trade,
-    Auction, And Rent Virtual Ownership Assets From Various
-    Metaverse And Gaming Projects. The Metaverse Is The Next
-    Generation Of The Internet.`,
+      des: `A global and local ranking system for all teams, including those not currently on the platform.`,
     },
 
     {
-      title: " MetaFi DeFi Vault",
-      src: "assets/images/works/workImage3.jpg",
+      title: "Tournament Automation",
+      src: "assets/images/screen/tournament.png",
 
-      des: `A Gamified Marketplace Dedicated To The Metaverse And Gaming
-    Assets. The Metaverse Marketplace Allows Users To Trade,
-    Auction, And Rent Virtual Ownership Assets From Various
-    Metaverse And Gaming Projects. The Metaverse Is The Next
-    Generation Of The Internet.`,
+      des: `Enabling organizers to automate the bracket system for streamlined tournament management.`,
     },
   ];
 
@@ -56,31 +44,44 @@ const Working = () => {
           src="/assets/images/banner/banner-shape-4.png"
           alt=""
         />
-        <HeadingSection type={"how it works"} title={"The Ignition Of Metaverse"}/>
+        <HeadingSection
+          type={"how it works"}
+          title={"The Ignition Of Metaverse"}
+        />
         {/* <div className="head">
           <h3 className="head_about">how it works</h3>
           <h1 className="head_title">The Ignition Of Metaverse</h1>
         </div> */}
 
         <ul className="listItems">
-          <li
-            className={`listItem ${selectedBtn == 0 ? "select-focus" : ""}`}
-            onClick={() => setSelectedBtn(0)}
-          >
-            Metaverse Marketplace
-          </li>
-          <li
-            className={`listItem ${selectedBtn == 1 ? "select-focus" : ""}`}
-            onClick={() => setSelectedBtn(1)}
-          >
-            Launchpad
-          </li>
+          <div className="working-eff">
+            <li
+              className={`listItem ${selectedBtn == 0 ? "select-focus" : ""}`}
+              onClick={() => setSelectedBtn(0)}
+            >
+              Targated Discovery
+            </li>
+            <span className="eff-a"></span>
+          </div>
+
+          <div className="working-eff">
+            <li
+              className={`listItem ${selectedBtn == 1 ? "select-focus" : ""}`}
+              onClick={() => setSelectedBtn(1)}
+            >
+              Ranking System
+            </li>
+            <span className="eff-a"></span>
+          </div>
+          <div className="working-eff">
           <li
             className={`listItem ${selectedBtn == 2 ? "select-focus" : ""}`}
             onClick={() => setSelectedBtn(2)}
           >
-            MetaFi DeFi Valut
+            Tournament Automation
           </li>
+          <span className="eff-a"></span>
+          </div>
         </ul>
         <ImageContainer
           src={a[selectedBtn].src}

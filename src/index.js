@@ -11,21 +11,16 @@ import {
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
-import { Home, Working} from "./Components";
+import { Contact, Home, News, Working} from "./Components";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Navigate to="/home" />} />
-      <Route path="home" element={<Home />} />
-      <Route path="working" element={<Working />} />
-
-      <Route path="*" element={<App />} />
-
-      {/* <Route path="about" element={<About />} />
+      <Route path="" element={<App/>} />
       <Route path="contact" element={<Contact />} />
-      <Route path="user/:userid" element={<User />} /> */}
+      <Route path="news" element={<News />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Route>
   )
 );
