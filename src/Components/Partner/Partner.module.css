@@ -1,5 +1,5 @@
 .container {
-    height: 100px;
+    height: 100%;
     width: 100%;
   }
 
@@ -36,7 +36,7 @@
   
   .content {
     background: linear-gradient(98.28deg,#fdcf39c6 2.11%,#FD8963 30.92%,#ED5174 97.49%);
-    height: 250px;
+    height: 200px;
     margin: 10px 15%;
     border-radius: 15px;
     display: flex;
@@ -54,15 +54,14 @@
   }
   
   .partner {
-    max-width: 200px;
+    flex-wrap: wrap;
+    width: 200px; /* Set a fixed width */
+    height: 150px;
     object-fit: contain;
     margin: 15px 10px;
     overflow: hidden;
-    padding: 1px 5px;
-    
   }
   
   .partner img {
-    aspect-ratio: 3/2;
     object-fit: contain;
-  }
+  } 

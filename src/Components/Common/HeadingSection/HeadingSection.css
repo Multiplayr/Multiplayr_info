@@ -1,0 +1,38 @@
+
+.heading-margin{
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+    display: block;
+    z-index: 10;
+}
+
+.heading-title{
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    /* max-width: 755px; */
+    /* z-index: 1; */
+}
+
+.heading-title span{ 
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 0.2rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background: linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: var(--headingFontFamily);
+    font-weight: 600;
+}
+
+.heading-title h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-family: var(--headingFontFamily);
+}

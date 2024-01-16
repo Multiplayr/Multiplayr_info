@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./TeamCard.module.css";
-import "font-awesome/css/font-awesome.min.css";
-import "./TeamCard.module.css";
-import { Link } from "react-router-dom";
+import React from 'react'
+import styles from "./TeamCard.module.css"
+// import 'font-awesome/css/font-awesome.min.css';
+import { Link } from 'react-router-dom';
+
 
 export const TeamCard = ({ member: { image, name, position } }) => {
   return (

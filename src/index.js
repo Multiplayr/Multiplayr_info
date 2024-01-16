@@ -12,7 +12,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
 import { Home, Working, Teams, Partner } from "./Components";
-import {News} from "./Components/News/News"
+import {News} from "./Components/News/News" 
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(

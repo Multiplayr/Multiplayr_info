@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"; // Import your CSS file
+import { HeadingSection } from "../Common";
 
 function Home() {
   return (
@@ -58,11 +59,15 @@ function Home() {
           </div>
 
           <div className="inner-div-right">
-            <img
-              className="img-ani-scale"
-              src="/assets/images/banner/banner-img-1.png"
-              alt=""
-            />
+            <div className="banner-img-div">
+              <img
+                className="img-ani-scale"
+                src="/assets/images/banner/banner-img-1.png"
+                alt=""
+              />
+
+             
+            </div>
           </div>
         </div>
       </div>

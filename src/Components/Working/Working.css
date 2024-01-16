@@ -1,7 +1,7 @@
 .working-layout {
   /* max-width: 1200px; */
   overflow-x: hidden;
-  margin: 100px auto;
+  margin: auto auto;
   z-index: 5;
   
 }
@@ -70,6 +70,7 @@
   list-style: none;
   align-items: center;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .listItem {
