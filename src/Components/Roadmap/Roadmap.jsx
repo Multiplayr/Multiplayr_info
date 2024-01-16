@@ -26,7 +26,7 @@ const Roadmap = () => {
       l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
       l4: "build Mave NFT Marketpalce",
       year: "2024",
-      tag: "Q1",
+      tag: "Q2",
     },
     {
       l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
@@ -34,7 +34,7 @@ const Roadmap = () => {
       l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
       l4: "build Mave NFT Marketpalce",
       year: "2024",
-      tag: "Q1",
+      tag: "Q3",
     },
     {
       l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
@@ -42,7 +42,7 @@ const Roadmap = () => {
       l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
       l4: "build Mave NFT Marketpalce",
       year: "2024",
-      tag: "Q1",
+      tag: "Q4",
     },
     {
       l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
@@ -50,7 +50,7 @@ const Roadmap = () => {
       l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
       l4: "build Mave NFT Marketpalce",
       year: "2024",
-      tag: "Q1",
+      tag: "Q5",
     },
     {
       l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
@@ -58,7 +58,7 @@ const Roadmap = () => {
       l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
       l4: "build Mave NFT Marketpalce",
       year: "2024",
-      tag: "Q1",
+      tag: "Q6",
     },
   ];
 
@@ -68,33 +68,42 @@ const Roadmap = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    arrows : false,
-   
+    arrows: false,
+    
+
   };
+  
 
 
   const sliderRef = useRef(null);
 
   const goToPrevSlide = () => {
     sliderRef.current.slickPrev();
-   
-    if (setSelectedBtn === -1) {
-      setSelectedBtn (3);
-    } else {
-      setSelectedBtn(selectedBtn - 1);
+
+    if (selectedBtn <= 0) {
       
+      console.log(selectedBtn);
+      setSelectedBtn(5);
+      // selectedBtn =5;
+
+    } else {
+      console.log(selectedBtn);
+      setSelectedBtn(selectedBtn - 1);
+
     }
 
   };
 
   const goToNextSlide = () => {
-    sliderRef.current.slickNext();  
+    sliderRef.current.slickNext();
 
-    if (setSelectedBtn === 4) {
-      setSelectedBtn (0);
+    if (selectedBtn >= 5) {
+      setSelectedBtn(0);
+      console.log(setSelectedBtn)
+
     } else {
       setSelectedBtn(selectedBtn + 1);
-     
+
     }
   };
   return (
@@ -129,40 +138,55 @@ const Roadmap = () => {
 
         <div className="owl-nav">
           <button className="owl-prev" onClick={goToPrevSlide} >
-          <FontAwesomeIcon  className="new-icon" icon={faChevronLeft} />
+            <FontAwesomeIcon className="new-icon" icon={faChevronLeft} />
             PAST
-            
+
           </button>
           <div className="owl-dots">
+
             <div className="owl-dot">
+             
+
               <span className={`dot-item ${selectedBtn == 0 ? "active" : ""}`}
-                onClick={() => setSelectedBtn()}></span>
+                onClick={() => setSelectedBtn(0)}></span>
             </div>
             <div className="owl-dot">
               <span className={`dot-item ${selectedBtn == 1 ? "active" : ""}`}
-                onClick={() => setSelectedBtn()}></span>
+                onClick={() => setSelectedBtn(selectedBtn)}></span>
             </div>
             <div className="owl-dot">
               <span className={`dot-item ${selectedBtn == 2 ? "active" : ""}`}
-                onClick={() => setSelectedBtn()}></span>
+                onClick={() => setSelectedBtn(selectedBtn)}></span>
             </div>
             <div className="owl-dot">
               <span className={`dot-item ${selectedBtn == 3 ? "active" : ""}`}
-                onClick={() => setSelectedBtn()}></span>
+                onClick={() => setSelectedBtn(selectedBtn)}></span>
 
-              </div>
             </div>
-            <button className="owl-next" onClick={goToNextSlide} >
-              FUTURE
-              <FontAwesomeIcon className="new-icon" icon={faChevronRight} />
-            </button>
+            <div className="owl-dot">
+              <span className={`dot-item ${selectedBtn == 4 ? "active" : ""}`}
+                onClick={() => setSelectedBtn(selectedBtn)}></span>
 
+            </div>
+            <div className="owl-dot">
+              <span className={`dot-item ${selectedBtn === 5 ? "active" : ""}`}
+                onClick={() => setSelectedBtn(selectedBtn)}></span>
+
+            </div>
 
           </div>
 
+          <button className="owl-next" onClick={goToNextSlide} >
+            FUTURE
+            <FontAwesomeIcon className="new-icon" icon={faChevronRight} />
+          </button>
+
+
         </div>
+
       </div>
-      );
+    </div>
+  );
 };
 
-      export default Roadmap;
+export default Roadmap;
