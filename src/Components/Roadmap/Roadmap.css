@@ -26,6 +26,7 @@
     #fd8963 30%,
     #ed5174 98.69%
   );
+  /* background: #b7fd1f; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -107,7 +108,14 @@
 }
 .roadmap-slides {
   margin: 60px;
+
 }
+/* .light-img {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.6;
+  position: absolute; */
 .light-img {
   top: 0;
   left: 0;
@@ -121,4 +129,113 @@
   z-index: -1;
   opacity: 0.6;
   position: absolute;
+}
+.owl-nav{
+    left: 0;
+    right: 0;
+    bottom: 17px;
+    max-width: 1350px;
+    /* position: absolute; */
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* text-align: center; */
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    flex-direction: row;
+    /* color:linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%); */
+    /*justify-content: space-between; */
+}
+.owl-prev{
+    padding-left: 18px;
+    left: 27px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background: linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+.icon{
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+}
+.owl-next{
+    padding-right: 18px;
+    left: auto;
+    /* right: auto; */
+    float: right;
+    right: 0;
+    margin-bottom:5px ;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background: linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+.owl-dots{
+    /* display: flex; */
+    line-height: 1;
+    max-width: 1140px;
+    /* max-width: 1000px; */
+    border-radius: 30px;
+    background: rgba(255,255,255,.08);
+    /* background: #FDCE39; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 30px!important; */
+    margin-top: 0;
+    text-align: center;
+    /* -webkit-tap-highlight-color: transparent; */
+}
+
+.owl-dot{
+    flex: 1;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    /* width: 285.01px; */
+    width: 185px;
+}
+.dot-item{
+    /* width: 33.30%; */
+    max-width: 50px;
+    /* padding: 10px; */
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    /* width: 100%; */
+    background: unset;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.new-icon{
+    margin-right: 2px;
+    margin-left: 2px;
+    /* background: ; */
+    -webkit-background-clip:text;
+    color:linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%) ;
+    -webkit-text-fill-color: transparent;
+}
+
+.dot-item.active{
+    max-width: 100%;
+    background:linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%) ; /* Set the background color for the active dot */
+    color: #fff;
+    
 }

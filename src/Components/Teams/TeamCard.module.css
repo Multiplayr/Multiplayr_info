@@ -1,23 +1,31 @@
 
 .container{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 18px 24px; 
     border-radius: 20px;
-    /* background: white 0.5; */
-    /* background: linear-gradient(180deg, #c4cdf0 0%, #132A53 100%); */
+    flex-direction: column;
+    padding: 20px;
     background: rgba(255,255,255,.1);
-    /* box-shadow: 0 16px 14px 0 #04152d; */
+   /* justify-content: center; */
     width: 250px;
     height: 250px;
     align-items: center;
-    margin-right: 0px;
+    /* margin-right: 0px; */
     margin-right: 0px;
     transition: background 0.5s ease;
     z-index: 10;
+    margin: 10px;
     
 }
+.TeamItem{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    margin-left: 10px;
 
+    
+}
 .container:hover{
     background: rgba(255,255,255,.3);
     
@@ -96,4 +104,13 @@
 
 .social i{
   margin: 10px 5px;
+}
+.team-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+
+    
 }

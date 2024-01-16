@@ -1,7 +1,7 @@
 .working-layout {
   /* max-width: 1200px; */
   overflow-x: hidden;
-  margin: auto auto;
+  /* margin: auto auto; */
   z-index: 5;
 }
 
@@ -24,7 +24,7 @@
   position: relative;
   margin: 0 auto;
 }
-
+/* 
 .head {
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@
   background-clip: text;
   font-family: var(--headingFontFamily);
   font-weight: bold;
-}
+} */
 
 .head_title {
   margin-top: 0;

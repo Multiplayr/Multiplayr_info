@@ -1,6 +1,6 @@
 import React from 'react';
 import './Roadmap.css';
-import ListItem from './ListItem';
+// import ListItem from './ListItem';
 
 const RoadMapItem = ({ year, tag, l1, l2, l3, l4 }) => {
 
@@ -20,46 +20,8 @@ const RoadMapItem = ({ year, tag, l1, l2, l3, l4 }) => {
                         <li>{l4}</li>
                     </ul>
 
-                    {/* <ListItem /> */}
-
-
-
                 </div>
-                {/* <div className='roadmap-item'>
-                    <div className="date">
-                        <span>2024</span>
-                        <h4><b>Q1</b></h4>
-                    </div>
-                    
-                        <ListItem />
-                  
-                    
-                    
-                </div>
-                <div className='roadmap-item'>
-                    <div className="date">
-                        <span>2024</span>
-                        <h4><b>Q1</b></h4>
-                    </div>
-                    
-                        <ListItem />
-                  
-                    
-                    
-                </div>
-                <div className='roadmap-item'>
-                    <div className="date">
-                        <span>2024</span>
-                        <h4><b>Q1</b></h4>
-                    </div>
-                    
-                        <ListItem />
-                  
-                    
-                    
-                </div> */}
-
-
+          
             </div>
         </>
     );
