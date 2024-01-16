@@ -14,9 +14,10 @@
   inset: 0;
   height: 100vh;
   width: 100vw;
-  /* filter: invert(1); */
+
+  filter: contrast(102%) brightness(90%);
   /* object-fit: cover; */
-  filter: grayscale(90%);
+  /* filter: grayscale(90%); */
 
 }
 
@@ -39,18 +40,23 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .overlay-img {
   max-width: 50%;
+  opacity: 0.7;
   z-index: 2;
   height: auto;
   position: absolute;
-  top: calc(-70%); /* Adjusted value to ensure overlay is within background */
-  left: calc(-70%); /* Adjusted value to ensure overlay is within background */
-  /* inset: 0; */
+  inset: 0;
   animation: on-off 5s infinite linear;
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition for opacity */
+
 }
+
+
+
 
 .overlay-rot-img {
   width: auto;
@@ -63,7 +69,6 @@
  .wrapper{
   display:flex;
   flex-direction: column;
-  align-items: center;
  }
 
 .wrapper h1 {
@@ -79,9 +84,11 @@
 .wrapper p {
   margin: 20px 10px;
   text-align: left;
+  text-wrap: wrap;
   font-size: 16px;
   color: #beb8cc;
-  line-height: 30px; 
+  line-height: 30px;
+  /* line-height: 1.25rem;  */
 }
 
 .inner-div-right {
@@ -114,12 +121,11 @@
   50% {
     opacity: 1;
   }
-  75% {
-    opacity: 0.8;
-  }
+
   100% {
     opacity: 0;
   }
+
 }
 
 @keyframes rotation {

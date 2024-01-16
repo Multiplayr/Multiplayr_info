@@ -3,8 +3,9 @@ import { Home,Feature, Working,Partner,Roadmap,Teams,News } from "./Components";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
+import { CursorFollower } from "./Components/Common";
 function App() {
+
   return (
     <>
       <div className="relative flex flex-col">
@@ -16,7 +17,7 @@ function App() {
       <Teams/>
       <News/>
       
-      
+      <CursorFollower/>
       <LineOnWebpage/>
        
       </div>

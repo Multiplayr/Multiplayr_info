@@ -1,97 +1,99 @@
-import React from 'react';
-import './Feature.css';
-import Item from '../Feature/Item';
-import { useState } from 'react';
-import { HeadingSection } from '../Common';
-
-
+import React from "react";
+import "./Feature.css";
+import Item from "../Feature/Item";
+import { useState } from "react";
+import { HeadingSection } from "../Common";
 
 const Feature = () => {
+  const [items, setitems] = useState([
+    {
+      heading: "targated discovery",
+      Image: "assets/images/icon/1.png",
 
-    const [items, setitems] = useState([{
-        heading: "Fueling The Metaverse",
-        Image: "assets/images/icon/icon-1.svg",
-        
-        des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
-
+      des: "Discover feature for teams, players, tournaments, jobs, and coaches based on user specifications.",
     },
     {
-        heading: "Interconnected Economies",
-        Image: "assets/images/icon/icon-2.svg",
-       
-        des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
+      heading: "ranking system",
+      Image: "assets/images/icon/2.png",
 
+      des: "A global and local ranking system for all teams, including those not currently on the platform.",
     },
     {
-        heading: "Non-fungible assets",
-        Image: "assets/images/icon/icon-3.svg",
-        
-        des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
+      heading: "tournament automation",
+      Image: "assets/images/icon/3.png",
 
+      des: "Enabling organizers to automate the bracket system for streamlined tournament management.",
     },
-   
-    ]);
-    const [items2, setitems2] = useState([
-    
- {
-            heading: "Incubation",
-            Image: "assets/images/icon/icon-4.svg",
-            
-            des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
-    
-        },
-        {
-    
-            heading: "Initial Metaverse Offering",
-            Image: "assets/images/icon/icon-5.svg",
-            
-            des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
-    
-        },
-        {
-    
-            heading: "Next Tier Metaverse Projects",
-            Image: "assets/images/icon/icon-6.svg",
-            
-            des: "The Metaverse Is The Next Generation Of The Internet. As One Of Its Earliest Explorers, You Will Help Fuel Its Expansion.",
-    
-        }
-    ])
+    {
+      heading: "expanded monetization channel",
+      Image: "assets/images/icon/4.png",
 
+      des: "Providing teams and players with opportunities to monetize through merchandise sales, NFTs, donations, and participation in daily tournaments.",
+    },
+    {
+      heading: "skill-match played",
+      Image: "assets/images/icon/5.png",
 
-    return (
-        <div className='feature'>
+      des: "Providing tier-based tournaments for better skill matchmaking to enhance the quality of gameplay and engagement.",
+    },
+    {
+      heading: "faster an secure payouts",
+      Image: "assets/images/icon/6.png",
 
-        <HeadingSection type={"features"} title={"capital id radical"}/>
+      des: "Simplify registration, making it a more user-friendly experience, and payment security through our escrow system providing assurance for both gamers and organizers.",
+    },
+  ]);
+  const [items2, setitems2] = useState([
+    {
+      heading: "expanded monetization channel",
+      Image: "assets/images/icon/icon-4.svg",
 
-            <div className="container-feature">
-                {/* <div className="section-title">
+      des: "Providing teams and players with opportunities to monetize through merchandise sales, NFTs, donations, and participation in daily tournaments.",
+    },
+    {
+      heading: "skill-match played",
+      Image: "assets/images/icon/icon-5.svg",
+
+      des: "Providing tier-based tournaments for better skill matchmaking to enhance the quality of gameplay and engagement.",
+    },
+    {
+      heading: "faster an secure payouts",
+      Image: "assets/images/icon/icon-6.svg",
+
+      des: "Simplify registration, making it a more user-friendly experience, and payment security through our escrow system providing assurance for both gamers and organizers.",
+    },
+  ]);
+
+  return (
+    <div className="feature">
+      <div className="rounding-layout">
+        <HeadingSection
+          type={"key features"}
+          title={"Addressing Market Needs"}
+        />
+
+        <div className="container-feature">
+          {/* <div className="section-title">
                     <span className='feature-key'>KEY FEATURES</span>
                     <h2><b>Access The Future</b></h2> 
                 </div> */}
 
-                <div class="row">
-                    {/* <Item /> */}
-                    <div className='row-item'>
-                    {items.map(item => (
-                        <Item heading={item.heading} Image={item.Image}  des={item.des} />
-                    ))}
-                    </div>
-                    <div className='row-item'>
-                    {items2.map(items2 => (
-                        <Item heading={items2.heading} Image={items2.Image}  des={items2.des} />
-                    ))}
-                    </div>
-                    
-                   
-
-                </div>
-
+          <div class="row">
+            {/* <Item /> */}
+            <div className="row-item">
+              {items.map((item) => (
+                <Item
+                  heading={item.heading}
+                  Image={item.Image}
+                  des={item.des}
+                />
+              ))}
             </div>
-
-
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Feature;

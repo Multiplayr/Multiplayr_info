@@ -12,7 +12,7 @@ function ImageContainer({src,title,description}) {
 
           <div className="image_description">
             <div className="image_title">
-              <span>{title}</span>
+              <span>{title}</span> 
             </div>
 
             <div className="image_about">
