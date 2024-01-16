@@ -78,16 +78,23 @@ const Feature = () => {
                     <h2><b>Access The Future</b></h2> 
                 </div> */} 
 
-          <div class="row">
-            {/* <Item /> */}
-            <div className="row-item">
-              {items.map((item) => (
-                <Item 
-                  heading={item.heading}
-                  Image={item.Image}
-                  des={item.des}
-                />
-              ))}
+                <div class="row">
+                    {/* <Item /> */}
+                    <div className='row-item'>
+                    {items.map(item => (
+                        <Item heading={item.heading} Image={item.Image}  des={item.des} />
+                    ))}
+                    </div>
+                    <div className='row-item'>
+                    {items2.map(items2 => (
+                        <Item heading={items2.heading} Image={items2.Image}  des={items2.des} />
+                    ))}
+                    </div>
+                    
+                   
+
+                </div>
+
             </div>
           </div>
         </div>

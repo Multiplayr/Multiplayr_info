@@ -22,7 +22,18 @@ function Home() {
               src="/assets/images/banner/banner-shape-1.png"
               alt=""
             />
+<<<<<<< HEAD
+            <img
+              className="overlay-img"
+              src="/assets/images/banner/banner-shape-2.png"
+              alt=""
+            />
+
+            
+
+=======
            
+>>>>>>> 4ca6daae83b388120d10ef4c516d8e1889d7634c
             <img
               className="overlay-rot-img"
               src="/assets/images/banner/banner-shape-4.png"
@@ -45,7 +56,11 @@ function Home() {
 
               <Link
                 to="#"
+<<<<<<< HEAD
+                className="sp-btn2 text-[#e4442a] font-heading focus:ring-4 font-semibold rounded-lg text-base px-8 lg:px-10 py-3 lg:py-3.5 mr-2 focus:outline-none"
+=======
                 className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2 focus:outline-none"
+>>>>>>> 4ca6daae83b388120d10ef4c516d8e1889d7634c
               >
                 Get started
               </Link>
