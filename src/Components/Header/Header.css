@@ -1,6 +1,33 @@
 .i {
   padding: 1rem 2rem;
 }
+
+/* .nav-border{
+  border-bottom: 2px solid #fa26ca;
+} */
+
+#progress-bar {
+  height: 2px;
+  width: 100%;
+  /* border-radius: 5px; */
+  background-color: #b7fd1f; /* Set your desired progress bar color */
+  position: absolute;
+  bottom: 0;
+  transition: width 0.5s ease;
+}
+
+.logo-div{
+  height : 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.logo{
+  height:auto;
+  width: auto;
+}
+
 .eff {
   height: 3px;
   width: 100%;
@@ -41,6 +68,10 @@
 
 .sp-btn {
   background: linear-gradient(135deg, #fa26ca 0%, #712af9 100%);
+}
+
+.sp-btn2 {
+  background: linear-gradient(90deg, #b7fd20 0%, #d7ef59 100%);
 }
 
 .nav-hover {

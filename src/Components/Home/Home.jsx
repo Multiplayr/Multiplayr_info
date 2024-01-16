@@ -10,7 +10,7 @@ function Home() {
         {/* Background Image */}
         <img
           className="background-img"
-          src="/assets/images/banner/banner-bg-1.jpg"
+          src="/assets/images/banner/banner-bg-1-2.jpg"
           alt=""
         />
 
@@ -19,39 +19,33 @@ function Home() {
             {/* Overlay Image */}
             <img
               className="overlay-img"
-              src="/assets/images/banner/banner-shape-2.png"
+              src="/assets/images/banner/banner-shape-1.png"
               alt=""
             />
-            <img
-              className="overlay-img"
-              src="/assets/images/banner/banner-shape-2.png"
-              alt=""
-            />
-
+           
             <img
               className="overlay-rot-img"
               src="/assets/images/banner/banner-shape-4.png"
               alt=""
             />
             <div className="wrapper">
-              <h1 className="">Building The Metaverse For Next Gaming World</h1>
+              <h1 className="">FORGE YOUR LEGACY</h1>
               <p className="leading-tight text-wrap">
-                The Metaverse Is The Next Generation Of The Internet. As One Of
-                Its Earliest Explorers, You Will Help Fuel Its Expansion And
-                Share In The Benefits Of This Growth.
+                Multiplayr is an esports infrastructure platform for team discovery and management,
+                tournament creation with real-time stats, and global and local rankings.
               </p>
             </div>
             <div className=" ml-3 mt-12 ">
               <Link
                 to="#"
-                className="bg-gray-50 text-black font-semibold rounded-lg text-base px-8 lg:px-10 py-3 lg:py-3.5 mr-2  focus:outline-none "
+                className="bg-gray-50 text-black font-heading  font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2  focus:outline-none "
               >
                 Log in
               </Link>
 
               <Link
                 to="#"
-                className="sp-btn text-white focus:ring-4 font-semibold rounded-lg text-base px-8 lg:px-10 py-3 lg:py-3.5 mr-2 focus:outline-none"
+                className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2 focus:outline-none"
               >
                 Get started
               </Link>

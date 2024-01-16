@@ -29,6 +29,19 @@
   --transition: .5s;
   --fontSize: 16px;
   --boxShadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+
+  --mp-primaryColor:#b7fd20;
+  --mp-secondaryColor:#d7ef59;
+  --mp-black: #1c1c1e ;
+  --mp-bgBlack: #171717;
+  --mp-grayDark:#343a40;
+  --mp-gray:#6c757d;
+
+  --mp-primaryGrad: linear-gradient(90deg, #b7fd20 0%, #d7ef59 100%);
+
+  --mp-secondaryGrad: linear-gradient(90deg, #1c1c1e 0%, #171717 100%);
+
+  --mp-grayGrad: linear-gradient(90deg, #343a40 0%, #1c1c1e 100%);
 }
 
 .ROOTFORMULTIPLAYR{
@@ -75,5 +88,13 @@ code {
     monospace;
 }
 
+.Multiplayr-Background-Gradient-Colour{
+  color:#b7fd20;
+  color:#d7ef59;
+  color: #1c1c1e ;
+  color: #171717;
+  background: linear-gradient(90deg, #b7fd20 0%, #d7ef59 100%);
+  background: linear-gradient(90deg, #1c1c1e 0%, #171717 100%);
 
+}
 
