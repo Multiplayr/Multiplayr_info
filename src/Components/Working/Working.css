@@ -122,14 +122,14 @@
   transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
 }
 
-.listItem:hover {
+/* .listItem:hover {
   background-color: linear-gradient(
     90.99deg,
     #fdce39 0.27%,
     #fd8963 30%,
     #ed5174 98.69%
   );
-}
+} */
 
 .select-focus {
   background: linear-gradient(var(--mp-grayDark),var(--mp-black)) padding-box,
