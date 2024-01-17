@@ -255,10 +255,7 @@
     background:linear-gradient(90.99deg,#b7fd20 .27%,#d7ef59 98.69%) ; /* Set the background color for the active dot */
     color: #fff;
     
-}
-
-
-
+  }
 
 /* ----------------------------------Responsive for mobile/Tablets Screen -------------------------------------------- */
 @media (max-width:425px) {
