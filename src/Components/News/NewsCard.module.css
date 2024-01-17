@@ -5,7 +5,12 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    transition: 0.3s ease-out;
 
+}
+
+.container:hover{
+    transform: scale(1.02);
 }
 
 .newsImage{
@@ -58,7 +63,7 @@
   font-size: 15px;
   letter-spacing: .1em;
   color: var(--primaryColor);
-  background: linear-gradient(135deg,#FA26CA 0%,#712AF9 100%);
+  background: var(--mp-primaryGrad);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
