@@ -10,12 +10,16 @@
 }
 
 .rounding-layout {
-  /* margin: 3% 5%; */
+
   background-color: #171717;
   opacity: 0.95;
   backdrop-filter: blur(15px);
-  /* border: #b7fd1f solid 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .container-feature {
   padding: 0px 5px;
 }
@@ -27,30 +31,47 @@
   --bs-gutter-y: 0;
   display: flex;
   flex-direction: column;
+
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
-  /* padding: 20px; */
-  margin: 0px 230px;
-  /* justify-content: space-around; */
+
+  margin: 0px 10%;
+  justify-content: space-evenly;
 }
+
+.row-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  /* margin: auto; */
+  /* width: 100%; */
+}
+
 /* .feature-item {
   flex-direction: row;
   width: 50%;
 } */
+
 .single-item {
   /* height: 29rem; */
   height: 24rem;
   background-color: #1c1c1e;
   margin-bottom: 30px;
   border-radius: 30px;
-  padding: 20px 20px;
-  width: 31.2%;
+  padding: 20px 30px;
+  width: 29%;
+  min-width: 338px;
   box-sizing: border-box;
   margin: 10px;
   /* min-width: 300px; */
   overflow: hidden;
 }
+
+
 
 .single-item:hover {
   background:var(--mp-grayGradT);
@@ -59,15 +80,7 @@
   transition: scale 0.3s ease-in;
 }
 
-.row-item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* justify-content: space-evenly; */
-  align-items: center;
-  /* margin: auto; */
-  /* width: 100%; */
-}
+
 
 .single-item img {
   margin: 0px auto;
@@ -125,123 +138,6 @@
   font-weight: 600;
   margin: 10px 0px 0px;
 
-}
-
-
-
-/* Media query for smaller screens */
-
-/* ----------------------------------Responsive for mobile Screen -------------------------------------------- */
-@media (min-width:426px )and(max-width: 767px) {
- 
-  .row{
-    margin: 0px 0px;
-    justify-content: space-evenly;
-    flex-direction: row;
-    /* width: 100%; */
-  }
-  .row-item {
-    /* display: flex;
-    flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-items: center;
-    margin: auto;
-    /* width: 100%; */
-    flex-direction: column;
-    /* width: 700px; */
-    
-  }
-  .single-item img {
-    /* margin: 0px auto; */
-    margin-bottom: 1rem;
-    max-width: 70px;
-    height: auto;
-    /* vertical-align: middle; */
-  }
-
-  .single-item h3 {
-    
-    font-size: 18px;
-   
-    margin-bottom: 10px;
-    
-  }
-  .single-item{
-    padding: 20px 20px;
-    width: 46.7%;
-    /* width: 400px; */
-    /* height: 24rem; */
-  }
-  .single-item p{
-    margin: 10px;
-  }
-
-  .single-item h3 {
-    
-    font-size: 18px;
-   
-    margin-bottom: 10px;
-    
-  }
-}
-
-/*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
-@media (min-width: 768px) and (max-width: 1024px) 
-
-  {
-  
-    .row-item {
-      
-      flex-wrap: wrap;
-      justify-content:space-around;
-      /* margin-left: 100px; */
-      margin: auto;
-      align-items: center;
-      /* padding: 10px 10px; */
-    }
-    .single-item{
-      padding: 20px 20px;
-      /* width: 46.7%; */
-      width: 46%;
-      height: 20rem;
-    }
-    .single-item img {
-      /* margin: 0px auto; */
-      margin-bottom: 1rem;
-      max-width: 90px;
-      height: auto;
-      vertical-align: middle;
-    }
-    .single-item h3 {
-    
-      font-size: 20px;
-     
-      margin-bottom: 10px;
-      
-    }
-    .row {
-     
-      margin: 0px 100px;
-      flex-direction: column;
-      justify-content: space-evenly;
-      /* padding: 20px; */
-      /* margin: 0px 250px; */
-
-    }
-  
-  }
-
-/*-------------------------------- Additional styles for larger screens------------------------------ */
-@media (min-width: 1281px) {
-  .row-item {
-      
-    flex-wrap: wrap;
-    justify-content:space-between;
-    /* margin-left: 100px; */
-    margin: auto;
-    align-items: center;
-  }
 }
 
 
