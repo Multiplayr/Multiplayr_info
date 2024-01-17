@@ -69,6 +69,23 @@ const Roadmap = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      }
+      
+    ]
    
   };
   
@@ -138,7 +155,7 @@ const Roadmap = () => {
         <div className="owl-nav">
           <button className="owl-prev" onClick={goToPrevSlide} >
             <FontAwesomeIcon className="new-icon" icon={faChevronLeft} />
-            PAST
+            <p>PAST</p>
 
           </button>
           <div className="owl-dots">
@@ -176,7 +193,7 @@ const Roadmap = () => {
           </div>
 
           <button className="owl-next" onClick={goToNextSlide} >
-            FUTURE
+            <p>FUTURE</p>
             <FontAwesomeIcon className="new-icon" icon={faChevronRight} />
           </button>
 
