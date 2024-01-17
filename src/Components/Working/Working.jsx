@@ -35,19 +35,19 @@ const Working = () => {
       <div className="container" id="pico">
         <img
           className="overlay-rot-img-b"
-          src="/assets/images/banner/banner-shape-4-1.png"
+          src="/assets/images/banner/banner-shape-4-2.png"
           alt=""
         />
 
         <img
           className="overlay-rot-img-c"
-          src="/assets/images/banner/banner-shape-4.png"
+          src="/assets/images/banner/banner-shape-4-2.png"
           alt=""
         />
 
         <img
           className="working-overlay-img"
-          src="/assets/images/banner/banner-shape-2-1.png"
+          src="/assets/images/banner/banner-shape-2-2.png"
           alt=""
         />
         {/* <img
@@ -57,9 +57,9 @@ const Working = () => {
         /> */}
         <HeadingSection
           type={"how it works"}
-          title={"The Ignition Of Metaverse"}
+          title={"Addressing Market Needs"}
         />
-        {/* <div className="head">
+        {/* <div className="head"> 
           <h3 className="head_about">how it works</h3>
           <h1 className="head_title">The Ignition Of Metaverse</h1>
         </div> */}
