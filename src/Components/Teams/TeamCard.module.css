@@ -15,7 +15,7 @@
     margin-right: 0px;
     transition: background 0.5s ease;
     z-index: 10;
-    margin: 10px;
+    margin-bottom: 20px;
     
   }
   .TeamItem{
@@ -147,6 +147,11 @@
       
      
   
+}
+@media(min-width:1200){
+    .TeamItem{
+        margin: 5px;
+    }
 }
   
   
