@@ -10,28 +10,24 @@ const Contact = () => {
                         <img src='https://unistudio.co/html/nerko/assets/images/divider-02.svg' alt="head" />
                     </div>
                     <div className={styles.discordContent}>
-                         {/* <img className={styles.star_1} src='https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' /> */}
-                    {/* <img lassName={styles.img2} src='ttps://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />
-                    <img lassName={styles.img3} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />
-                    <img lassName={styles.img4} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />  */}
+                        {/* <img className={styles.star_1} src='https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' /> */}
+                        {/* <img lassName={styles.img2} src='ttps://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />
+                        <img lassName={styles.img3} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />
+                        <img lassName={styles.img4} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />  */}
                         <div className={styles.discordHeading}>
                             <h1>JOIN US VIA </h1>
                         </div>
 
                         <div className={styles.discordTitle}>
-                            <h1>DISCORD</h1>
+                            <h1>Email</h1>
                         </div>
                         <p>Build your Team and Conquer the World</p>
 
-                        <button className={styles.discordbtn}>Join via Discord</button>
+                        <button className={styles.discordbtn}>Join via Email</button>
 
                     </div>
 
                 </div>
-
-
-
-
 
             </section>
             <footer>
