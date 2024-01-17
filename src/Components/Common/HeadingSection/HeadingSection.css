@@ -72,3 +72,23 @@
     line-height: 20px; /* Adjust line height for smaller screens */
   }
 }
+
+/* ----------------heading responsive---------------------------- */
+@media (max-width:425px) {
+ 
+
+}
+
+@media (min-width:426px)and(max-width: 767px) {
+  
+}
+
+/*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
+@media (min-width: 768px) and (max-width: 1024px) 
+
+  {
+    
+   
+
+  
+  }

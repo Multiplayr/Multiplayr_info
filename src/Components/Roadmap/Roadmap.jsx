@@ -50,7 +50,7 @@ const Roadmap = () => {
       l1: "Clubs ",
       l2: "NFT ",
       l3: "Mobile App BETA",
-      // l4: "build Mave NFT Marketpalce",
+      l4: "Brands/Companies",
       year: "2024",
       tag: "Q4",
     },

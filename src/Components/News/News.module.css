@@ -52,7 +52,7 @@
 
 @media (max-width: 767px) {
   .newsItems{
-    margin: 10px 50px;
+    margin: 50px 50px;
     flex-direction: column;
     
   }
@@ -65,7 +65,7 @@
     
    
     .newsItems{
-      margin: 10px 50px;
+      margin: 50px 50px;
       flex-direction: column;
       
       
