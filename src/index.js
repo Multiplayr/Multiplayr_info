@@ -11,7 +11,7 @@ import {
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
-import { Contact, Home, News, Working,Partner} from "./Components";
+import { Contact, Home, News, Working,Partner, Blogs} from "./Components";
 
 
 const router = createBrowserRouter(
@@ -20,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="" element={<App/>} />
       <Route path="contact" element={<Contact />} /> 
       <Route path="news" element={<News />} />
+      <Route path="blog" element={<Blogs />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Route>
   )
