@@ -85,7 +85,7 @@ const Working = () => {
             <span className="eff-a"></span>
           </div>
           <div className="working-eff">
-            <li
+            <li 
               className={`listItem ${selectedBtn == 2 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(2)}
             >
