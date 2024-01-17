@@ -58,6 +58,10 @@
 
 .single-item {
   /* height: 29rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   height: 24rem;
   background-color: #1c1c1e;
   margin-bottom: 30px;
