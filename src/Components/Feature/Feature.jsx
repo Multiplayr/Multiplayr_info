@@ -72,7 +72,7 @@ const Feature = () => {
           title={"Addressing Market Needs"}
         />
 
-        <div className="container-feature">
+        {/* <div className="container-feature"> */}
           {/* <div className="section-title">
                     <span className='feature-key'>KEY FEATURES</span>
                     <h2><b>Access The Future</b></h2> 
@@ -90,7 +90,7 @@ const Feature = () => {
               ))}
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );
