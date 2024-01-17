@@ -52,6 +52,7 @@
   margin-bottom: 30px;
   padding: 25px;
   margin: 20px;
+  min-width: 25%;
 }
 .roadmap-item .date {
   background: linear-gradient(90.99deg,#b7fd20 .27%,#d7ef59 98.69%);
@@ -254,19 +255,17 @@
     background:linear-gradient(90.99deg,#b7fd20 .27%,#d7ef59 98.69%) ; /* Set the background color for the active dot */
     color: #fff;
     
-}
-
-
-
+  }
 
 /* ----------------------------------Responsive for mobile/Tablets Screen -------------------------------------------- */
-@media (min-width:425px) and (max-width: 766px){
+@media (max-width:425px) {
   .light-img , .light-img-2{
     visibility: hidden;
 
   }
-  .container-roadmap {
-    width: 100%;
+  .roadmap-slides{
+    /* width: 100%; */
+    margin: 20px;
   }
   
   .roadmap-item {
@@ -275,7 +274,7 @@
     margin-bottom: 30px;
     padding: 15px;
     margin: 0px;
-    /* margin: 15px; */
+   
   }
   .roadmap-item .date {
   
@@ -285,24 +284,59 @@
   
     font-weight: bold;
   }
+  .roadmap-item ul li {
+    font-family: var(--headingFontFamily);
+    margin-bottom: 10px;
+    /* position: relative; */
+    padding-left: 13px;
+    /* font-weight: 600; */
+  
+    /* position: relative; */
+    padding-left: 1em; /* Adjust the padding as needed */
+  }
+  .owl-dots{
+    display: none;
+    /* justify-content: space-evenly; */
+    
 
-}
-
-@media (max-width: 767px) {
-  .container-roadmap {
-   
-   
+  }
+  .owl-nav{
+     width: 250px;
     justify-content: space-evenly;
     
   }
 
-  .roadmap-item {
-    
-    border-radius: 30px;
-    margin-bottom: 30px;
-    padding: 25px;
+}
+
+@media (min-width:426px)and(max-width: 767px) {
+  .roadmap-slides{
+    /* width: 100%; */
     margin: 20px;
   }
+  .container-roadmap {
+   
+   
+    justify-content: space-evenly;
+    margin: 70px;
+    
+  }
+  .roadmap-item .date {
+  
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 15px 25px;
+  
+    font-weight: bold;
+  }
+  .roadmap-item {
+   
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    margin: 10px;
+    /* margin: 15px; */
+  }
+  
   .owl-dots{
     display: none;
     /* justify-content: space-evenly; */
@@ -320,6 +354,10 @@
 @media (min-width: 768px) and (max-width: 1024px) 
 
   {
+    .roadmap-slides{
+      /* width: 100%; */
+      margin: 40px;
+    }
     .owl-nav{
      
       max-width:900px;
@@ -334,7 +372,13 @@
     .owl-next p{
       margin: 0px 5px;
     }
+    .roadmap-item {
     
+      border-radius: 30px;
+      margin-bottom: 30px;
+      padding: 25px;
+      margin: 30px;
+    }
    
 
   
