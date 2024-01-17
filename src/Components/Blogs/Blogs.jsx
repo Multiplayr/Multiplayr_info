@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 function Blogs() {
   return (
     <div className="blog-layout">
@@ -37,6 +39,7 @@ function Blogs() {
 
       </div>
     </div>
+    
   </div>
   )
 }
