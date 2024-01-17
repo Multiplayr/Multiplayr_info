@@ -121,10 +121,11 @@
 /* ======================================================================================================================= */
 
 /* Media Query for Small Screens */
-@media (min-width: 1400px) {
+@media (min-width: 1380px) {
   html, body {
     font-size: 20px; /* Adjust the base font size for larger screens */
   }
+ 
 
   .wrapper p {
     font-size: 18px;
@@ -163,7 +164,9 @@
   align-items: center;
     margin-top: 0;
   }
-
+  .wrapper {
+    margin-bottom:0px;
+  }
   .wrapper h1 {
     font-family: var(--headingFontFamily);
     font-size: 30px; /* Adjust font size for smaller screens */
@@ -188,12 +191,13 @@
   }
 
   .img-ani-scale {
-    height: 16rem;
+    height: 18rem;
+    padding-top: 2vh;
   }
 
 }
 
-@media (max-width: 480px) {
+@media (max-height: 600px) and (max-width: 480px) {
   .inner-div-left {
     padding: 1rem; /* Adjust padding for smaller screens */
     margin: 0.5rem; /* Adjust margin for smaller screens */
@@ -203,9 +207,12 @@
     margin: 6% 10%; /* Adjust margin for smaller screens */
   }
   .img-ani-scale {
-   padding-top: 10px;
+    height: 16rem;
+   padding-top: 8vh;
    }
-
+   .wrapper {
+    margin-bottom:0px;
+  }
   .wrapper h1 {
     font-size: 24px; /* Adjust font size for smaller screens */
     line-height: 30px; /* Adjust line height for smaller screens */
