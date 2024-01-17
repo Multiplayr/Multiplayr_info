@@ -17,11 +17,35 @@ const Teams = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     // arrows: false,
-
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 426,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+      
+    ]
+   
   };
 
   return (
-    <section className={styles.container}>
+    <section className={styles.Container}>
       {/* <div className={styles.head}>
         <h3 className={styles.head_about}>team members</h3>
         <h1 className={styles.head_title}>Meet The Team Behind The Scene </h1>
