@@ -261,7 +261,7 @@
 
 
 /* ----------------------------------Responsive for mobile/Tablets Screen -------------------------------------------- */
-@media (max-width:425px) {
+@media (min-width:425px) {
   .light-img , .light-img-2{
     visibility: hidden;
 
@@ -303,7 +303,7 @@
 @media (min-width:426px)and(max-width: 767px) {
   .roadmap-slides{
     /* width: 100%; */
-    margin: 30px;
+    margin: 20px;
   }
   .container-roadmap {
    
