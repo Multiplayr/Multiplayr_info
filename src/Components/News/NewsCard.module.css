@@ -1,19 +1,11 @@
 .container{
-    width: 350px;
-    height: 450px;
+    /* width: 350px;
+    height: 450px; */
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    transition: 0.3s ease-out;
-    margin: 20px 10px;
 
-}
-
-
-
-.container:hover{
-    transform: scale(1.02);
 }
 
 .newsImage{
@@ -66,7 +58,7 @@
   font-size: 15px;
   letter-spacing: .1em;
   color: var(--primaryColor);
-  background: var(--mp-primaryGrad);
+  background: linear-gradient(135deg,#FA26CA 0%,#712AF9 100%);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
