@@ -38,12 +38,12 @@
 
   @media (max-width:425px) {
 
-    /* .partner {
+    .partner {
       height: auto;
       margin: 1rem 1rem;
       width: 200px;
       transition: transform 1s ease-in-out; 
-    } */
+    }
     
   }
   
