@@ -12,7 +12,7 @@ function Layout() {
       {/* <Feature/> */}
       <Outlet />
 
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

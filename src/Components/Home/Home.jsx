@@ -13,7 +13,7 @@ function Home() {
           src="/assets/images/banner/banner-bg-1-2.jpg"
           alt=""
         />
-
+ 
         <div className="overlay-div">
           <div className="inner-div-left">
             {/* Overlay Image */}
@@ -35,7 +35,7 @@ function Home() {
                 tournament creation with real-time stats, and global and local rankings.
               </p>
             </div>
-            <div className=" ml-3 mt-12 ">
+            <div className="mt-12 md:mt-3 sm:mt-3 ">
               <Link
                 to="#"
                 className="bg-gray-50 text-black font-heading  font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2  focus:outline-none "
@@ -55,7 +55,7 @@ function Home() {
           <div className="inner-div-right">
             <div className="banner-img-div">
               <img
-                className="img-ani-scale"
+                className="img-ani-scale md:h-14 sm:h-10"
                 src="/assets/images/banner/multiplayr-character.png"
                 alt=""
               />

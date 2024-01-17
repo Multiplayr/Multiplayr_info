@@ -7,7 +7,7 @@
 } */
 
 #progress-bar {
-  height: 2px;
+  height: 2px; 
   width: 100%;
   /* border-radius: 5px; */
   background-color: #b7fd1f; /* Set your desired progress bar color */
@@ -17,17 +17,17 @@
 }
 
 .logo-div{
-  height : 4rem;
+  height : 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
  
-.logo{
-  height:auto;
+.logo {
+  height: auto;
+  max-width: 100%; /* Make the image responsive */
   width: auto;
 }
-
 .eff {
   height: 3px;
   width: 100%;

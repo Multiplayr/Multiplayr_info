@@ -13,6 +13,9 @@ export const Partner = () => {
       <div className={styles.content}>
         <div className={styles.partners}>
           {Partners.map((partner, index) => {
+            if (index==3){
+
+            }else{
             // Move the key attribute inside the map function
             return (
               <div key={index} className={styles.partner}>
@@ -22,7 +25,7 @@ export const Partner = () => {
                   alt={`Partner ${index}`}
                 />
               </div>
-            );
+            );}
           })}
         </div>
       </div>
