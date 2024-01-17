@@ -52,7 +52,8 @@
   margin-bottom: 30px;
   padding: 25px;
   margin: 20px;
-  min-width: 25%;
+  /* min-width: 25%; */
+  min-width: 90%;
 }
 .roadmap-item .date {
   background: linear-gradient(90.99deg,#b7fd20 .27%,#d7ef59 98.69%);

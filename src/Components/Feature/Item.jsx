@@ -14,7 +14,7 @@ const Item = ({heading,Image,des}) => {
                     <p>
                         {des.length<90? des:des}
                     </p>
-                    <a href='#' className='read-more'> Read more</a>
+                    {/* <a href='#' className='read-more'> Read more</a> */}
 
                 </div>
 
