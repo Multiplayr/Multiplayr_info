@@ -41,7 +41,7 @@
 .container-roadmap {
   display: flex;
   flex-direction: row;
-  /* margin: 60px; */
+  
   overflow: hidden;
 }
 .roadmap-item {
@@ -138,19 +138,19 @@
     right: 0;
     bottom: 17px;
     max-width: 1350px;
-    /* position: absolute; */
+    
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    /* text-align: center; */
+
     -webkit-tap-highlight-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* color:linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%); */
-    /*justify-content: space-between; */
+    
+    
 }
 .owl-prev{
     padding-left: 18px;
@@ -162,6 +162,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
+       display: flex;
+      flex-direction: row;
 }
 .icon{
     transform: translateY(-50%);
@@ -175,7 +177,7 @@
     /* right: auto; */
     float: right;
     right: 0;
-    margin-bottom:5px ;
+    /* margin-bottom:40px ; */
     cursor: pointer;
     -webkit-user-select: none;
     user-select: none;
@@ -183,6 +185,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
+       display: flex;
+      flex-direction: row;
+}
+.owl-next P{
+  /* margin-bottom: 8px; */
 }
 .owl-dots{
     display: flex;
@@ -233,8 +240,9 @@
     
 }
 .new-icon{
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
     /* background: ; */
     -webkit-background-clip:text;
     color:linear-gradient(90.99deg,#b7fd20 .27%,#d7ef59 98.69%) ;
@@ -246,4 +254,93 @@
     background:linear-gradient(90.99deg,#b7fd20 .27%,#d7ef59 98.69%) ; /* Set the background color for the active dot */
     color: #fff;
     
+}
+
+
+
+
+/* ----------------------------------Responsive for mobile/Tablets Screen -------------------------------------------- */
+@media (min-width:425px) and (max-width: 766px){
+  .light-img , .light-img-2{
+    visibility: hidden;
+
+  }
+  .container-roadmap {
+    width: 100%;
+  }
+  
+  .roadmap-item {
+   
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    margin: 0px;
+    /* margin: 15px; */
+  }
+  .roadmap-item .date {
+  
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 15px 20px;
+  
+    font-weight: bold;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .container-roadmap {
+   
+   
+    justify-content: space-evenly;
+    
+  }
+
+  .roadmap-item {
+    
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    margin: 20px;
+  }
+  .owl-dots{
+    display: none;
+    /* justify-content: space-evenly; */
+    
+
+  }
+  .owl-nav{
+     width: 250px;
+    justify-content: space-evenly;
+    
+  }
+}
+
+/*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
+@media (min-width: 768px) and (max-width: 1024px) 
+
+  {
+    .owl-nav{
+     
+      max-width:900px;
+     
+      
+    }
+    .owl-next ,.owl-prev{
+      padding-bottom: 5px;
+      /* display: flex;
+      flex-direction: row; */
+    }
+    .owl-next p{
+      margin: 0px 5px;
+    }
+    
+   
+
+  
+  }
+
+/*-------------------------------- Additional styles for larger screens------------------------------ */
+@media (min-width: 1281px) {
+  
 }
