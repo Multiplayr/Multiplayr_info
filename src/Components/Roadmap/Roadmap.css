@@ -261,7 +261,7 @@
 
 
 /* ----------------------------------Responsive for mobile/Tablets Screen -------------------------------------------- */
-@media (min-width:425px) {
+@media (max-width:425px) {
   .light-img , .light-img-2{
     visibility: hidden;
 
@@ -296,6 +296,17 @@
   
     /* position: relative; */
     padding-left: 1em; /* Adjust the padding as needed */
+  }
+  .owl-dots{
+    display: none;
+    /* justify-content: space-evenly; */
+    
+
+  }
+  .owl-nav{
+     width: 250px;
+    justify-content: space-evenly;
+    
   }
 
 }
