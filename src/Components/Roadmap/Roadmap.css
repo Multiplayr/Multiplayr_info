@@ -12,8 +12,7 @@
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  /* display: flex;
-    flex-direction: row; */
+ 
 }
 .section-title span {
   margin-bottom: 12px;
@@ -26,7 +25,7 @@
     #fd8963 30%,
     #ed5174 98.69%
   );
-  /* background: #b7fd1f; */
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
