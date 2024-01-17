@@ -40,3 +40,36 @@
   gap: 15px;
 }
 
+
+@media (max-width:425px) {
+  .newsItems{
+    margin: 10px 50px;
+    flex-direction: column;
+    
+  }
+
+}
+
+@media (max-width: 767px) {
+  .newsItems{
+    margin: 10px 50px;
+    flex-direction: column;
+    
+  }
+}
+
+/*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
+@media (min-width: 768px) and (max-width: 1024px) 
+
+  {
+    
+   
+    .newsItems{
+      margin: 10px 50px;
+      flex-direction: column;
+      
+      
+      
+    }
+  
+  }

@@ -15,15 +15,15 @@ const Contact = () => {
                         <img lassName={styles.img3} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />
                         <img lassName={styles.img4} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />  */}
                         <div className={styles.discordHeading}>
-                            <h1>JOIN US VIA </h1>
+                            <h1>Join the  </h1>
                         </div>
 
                         <div className={styles.discordTitle}>
-                            <h1>Email</h1>
+                            <h1>waitlist</h1>
                         </div>
                         <p>Build your Team and Conquer the World</p>
 
-                        <button className={styles.discordbtn}>Join via Email</button>
+                        <button className={styles.discordbtn}> Email</button>
 
                     </div>
 

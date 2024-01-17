@@ -145,4 +145,8 @@
 }
 
 
-
+@media (min-width: 1281px) {
+  .single-item{
+    height: 18rem;
+  }
+}
