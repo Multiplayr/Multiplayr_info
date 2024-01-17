@@ -71,6 +71,8 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 .wrapper h1 {
@@ -119,6 +121,18 @@
 /* ======================================================================================================================= */
 
 /* Media Query for Small Screens */
+@media (min-width: 1400px) {
+  html, body {
+    font-size: 24px; /* Adjust the base font size for larger screens */
+  }
+
+  .wrapper p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+}
+
 @media (max-width: 768px) {
   body,
   p {

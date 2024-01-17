@@ -45,7 +45,7 @@ function Home() {
 
               <Link
                   to={"https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"}
-                className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-10 py-2 lg:py-2.5 mr-2 focus:outline-none z-50"
+                className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-7 py-2 lg:py-2 mr-2 focus:outline-none z-50"
               >
                 Whitepaper
               </Link>
