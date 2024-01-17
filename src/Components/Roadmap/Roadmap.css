@@ -297,6 +297,17 @@
     /* position: relative; */
     padding-left: 1em; /* Adjust the padding as needed */
   }
+  .owl-dots{
+    display: none;
+    /* justify-content: space-evenly; */
+    
+
+  }
+  .owl-nav{
+    width: 250px;
+   justify-content: space-evenly;
+   
+ }
 
 }
 
