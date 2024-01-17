@@ -9,7 +9,7 @@ const Working = () => {
 
   const a = [
     {
-      title: "targated discovery",
+      title: "targeted discovery",
       src: "assets/images/screen/discovery.png",
 
       des: `Discover feature for teams, players, tournaments, jobs, and coaches based on user specifications. For eg: You can search players who speak the same language, timing, region, MMR (game ranking system) and more.`,
@@ -70,7 +70,7 @@ const Working = () => {
               className={`listItem ${selectedBtn == 0 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(0)}
             >
-              Targated Discovery
+              Targeted Discovery
             </li>
             <span className="eff-a"></span>
           </div>
