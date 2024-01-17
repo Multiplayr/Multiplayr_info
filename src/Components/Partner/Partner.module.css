@@ -25,6 +25,7 @@
   
   .partner {
     height: auto;
+    margin: 0 auto;
     width: 350px;
     transition: transform 1s ease-in-out; 
   }
