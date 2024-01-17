@@ -150,3 +150,13 @@
     height: 18rem;
   }
 }
+@media (min-width: 768px){
+  .row{
+    margin: 50px 0px;
+  }
+}
+@media (min-width: 425px){
+  .row{
+    margin: 30px 0px;
+  }
+}

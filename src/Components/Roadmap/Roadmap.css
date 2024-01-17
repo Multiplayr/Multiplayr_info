@@ -270,12 +270,13 @@
   }
   
   .roadmap-item {
-   
+    /* display: flex; */
     border-radius: 30px;
     margin-bottom: 30px;
     padding: 15px;
     margin: 0px;
-   
+    /* justify-content: center; */
+    /* margin: auto; */
   }
   .roadmap-item .date {
   
@@ -330,7 +331,7 @@
     font-weight: bold;
   }
   .roadmap-item {
-   
+    
     border-radius: 30px;
     margin-bottom: 30px;
     padding: 15px;
