@@ -53,7 +53,7 @@ const Contact = () => {
                             <span>Terms of use</span>
                         </div>
                         <div className={styles.reserved}>
-                            <p style={{color:"gray",fontSize:"14px"}}>@2024 Multiplayr Esports Private Limited. All rights reserved.</p>
+                            <p style={{color:"gray",fontSize:"14px"}}><span className='condition'>@2024 Multiplayr Esports Private Limited. All rights reserved.</span></p>
                         </div>
                     </div>
 
