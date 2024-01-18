@@ -142,9 +142,9 @@
   }
 
   .img-ani-scale {
-    height: 800px; /* Adjust height for smaller screens */
+    height: 700px;
     margin: 0 auto;
-    margin-right: 0; /* Remove margin for smaller screens */
+    margin-right: 0;
     width: auto;
   }
 
@@ -232,7 +232,7 @@
   }
 
   .img-ani-scale {
-    height: 18rem;
+    height: 16rem;
     padding-top: 2vh;
   }
 

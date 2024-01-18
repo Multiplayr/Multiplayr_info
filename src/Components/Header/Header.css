@@ -12,21 +12,25 @@
   /* border-radius: 5px; */
   background-color: #b7fd1f; /* Set your desired progress bar color */
   position: absolute;
-  bottom: 0;
+  bottom: 0; 
   transition: width 0.5s ease;
 }
 
 .logo-div{
-  height : 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  position:relative;
+  width: 70%; /* Make the image responsive */
 }
  
 .logo {
   height: auto;
   max-width: 100%; /* Make the image responsive */
   width: auto;
+}
+
+
+@media (max-width:768) {
+  
 }
 .eff {
   height: 3px;

@@ -1,6 +1,6 @@
 import React,{useEffect} from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Header.css";
+import "./Header.css"; 
 import { CustomNavLink } from "../Common";
 
 export default function Header() { 
@@ -9,11 +9,15 @@ export default function Header() {
   return (
     <header className="shadow sticky z-50 top-0 nav-border">
       <nav className="bg-bg sticky border-gray-200 px-4 lg:px-6 py-4 bg-opacity-80 backdrop-filter backdrop-blur-sm ">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <div className="flex flex-wrap justify-around items-center mx-auto max-w-screen-xl relative">
+        <div className=" overflow:hidden ">
           <div className="logo-div">
             <Link to="/" className="flex items-center">
+           
               <img src="assets/images/logo.png" className="logo" alt="Logo" />
+          
             </Link>
+          </div>
           </div>
 
           <div
@@ -53,14 +57,14 @@ export default function Header() {
               to="/features"
               smooth={true}
               duration={500}
-              className="bg-gray-50 text-black font-semibold rounded-lg text-sm px-6 lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none"
+              className="hidden lg:block bg-gray-50 text-black font-semibold rounded-lg text-sm px-6 lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none"
             >
               Log in
             </Link>
 
             <Link
               to="https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"
-              className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-sm px-6  lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none"
+              className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-sm px-6  lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none "
             >
               Whitepaper
             </Link>

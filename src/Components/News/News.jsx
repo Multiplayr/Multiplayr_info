@@ -4,7 +4,7 @@ import updates from "../../Data/News.json";
 import { NewsCard } from "./NewsCard";
 import { HeadingSection } from "../Common";
 
-export const News = () => {
+const News = () => {
   return (
     <section className={styles.container}>
       {/* <div className={styles.head}>
@@ -22,3 +22,5 @@ export const News = () => {
     </section>
   );
 };
+
+export default News;

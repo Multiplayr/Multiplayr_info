@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const CustomNavLink = ({ to, title, children }) => (
   <NavLink
     to={to}
-    className={({ isActive }) => `
+    className={({ isActive }) => ` 
                  flex py-2 pr-4 pl-3 duration-200 font-heading 
                 ${
                   isActive
