@@ -127,7 +127,7 @@ const Roadmap = () => {
       console.log(setSelectedBtn)
 
     } else {
-      setSelectedBtn(selectedBtn + 1);
+      setSelectedBtn(selectedBtn + 1); 
 
     }
   };

@@ -19,9 +19,9 @@ const Contact = () => {
                         </div>
 
                         <div className={styles.discordTitle}>
-                            <h1>waitlist</h1>
+                            <h1>WAITLIST</h1>
                         </div>
-                        <p>Build your Team and Conquer the World</p>
+                        {/* <p>Build your Team and Conquer the World</p> */}
 
                         <button className={styles.discordbtn}> Email</button>
 
@@ -49,10 +49,10 @@ const Contact = () => {
                         </div>
                         <div className={styles.condition}>
                             <span>Privacy</span>
-                            <span>Term of use</span>
+                            <span>Terms of use</span>
                         </div>
                         <div className={styles.reserved}>
-                            <p>@2024 Multiplayr Esports Private Limited.All rights reserved.</p>
+                            <p style={{color:"gray",fontSize:"14px"}}>@2024 Multiplayr Esports Private Limited. All rights reserved.</p>
                         </div>
                     </div>
 

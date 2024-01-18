@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./News.module.css";
 import updates from "../../Data/News.json";
 import { NewsCard } from "./NewsCard";
-import { HeadingSection } from "../Common";
+import { HeadingSection } from "../Common"; 
 
 const News = () => {
   return (
