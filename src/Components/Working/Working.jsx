@@ -67,7 +67,7 @@ const Working = () => {
         <ul className="listItems">
           <div className="working-eff">
             <li
-              className={`listItem ${selectedBtn == 0 ? "select-focus" : ""}`}
+              className={`listItem ${selectedBtn === 0 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(0)}
             >
               Targeted Discovery
@@ -77,7 +77,7 @@ const Working = () => {
 
           <div className="working-eff">
             <li
-              className={`listItem ${selectedBtn == 1 ? "select-focus" : ""}`}
+              className={`listItem ${selectedBtn === 1 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(1)}
             >
               Ranking System
@@ -86,7 +86,7 @@ const Working = () => {
           </div>
           <div className="working-eff">
             <li
-              className={`listItem ${selectedBtn == 2 ? "select-focus" : ""}`}
+              className={`listItem ${selectedBtn === 2 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(2)}
             >
               Tournament Automation

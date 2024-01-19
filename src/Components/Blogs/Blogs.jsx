@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// import React from "react";
+// import { Link } from "react-router-dom";
 import "./Blogs.css"; // Import your CSS file
 import { News } from "..";
 

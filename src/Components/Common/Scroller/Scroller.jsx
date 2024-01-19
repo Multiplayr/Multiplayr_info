@@ -1,15 +1,21 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const Scroller = () => {
-    const{pathName}=useLocation();
-    useEffect(()=>{
-        window.scrollTo(0,0)
-    },[pathName])
+  const {pathname} = useLocation();
+
+  const ScrollerAct = () => {
+      document.body.scrollTo({top:0 ,left:0,behavior:"auto"});
+      return null; // Make sure to return something from the component
+  }
+
+  useEffect(() => {
+    ScrollerAct();
+  }, [pathname]);
+
   return (
     null
   )
 }
 
-export default Scroller
+export default Scroller;
