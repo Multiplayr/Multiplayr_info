@@ -9,7 +9,7 @@ import {
   createRoutesFromElements,ScrollRestoration
 } from "react-router-dom";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
 import { Contact, Home, News, Working,Partner, Blogs} from "./Components";
 import { Scroller } from "./Components/Common";
@@ -36,4 +36,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 
-reportWebVitals();
+
