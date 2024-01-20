@@ -2,7 +2,7 @@ import React from 'react';
 import './Roadmap.css';
 // import ListItem from './ListItem';
 
-const RoadMapItem = ({ year, tag, l1, l2, l3, l4 }) => {
+const RoadMapItem = ({ year, tag, l1, l2, l3, l4, l5, l6 }) => {
 
 
     return (
@@ -18,6 +18,10 @@ const RoadMapItem = ({ year, tag, l1, l2, l3, l4 }) => {
                         <li>{l2}</li>
                         <li>{l3} </li>
                         <li>{l4}</li>
+                        <li>{l5}</li>
+                        <li>{l6}</li>
+
+
                     </ul>
 
                 </div>

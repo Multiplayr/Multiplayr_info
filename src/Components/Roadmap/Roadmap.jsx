@@ -13,53 +13,49 @@ const Roadmap = () => {
   const [selectedBtn, setSelectedBtn] = useState(0);
   const data = [
     {
-      l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
-      l2: "Launch the staking NFT system",
-      l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
-      l4: "build Mave NFT Marketpalce",
+      l1: "Tournaments",
+      l2: "Profiles",
+      l3: "Dashboard",
+      l4: "Closed ALPHA Release",
+      year: "2023"
+    },
+    {
+      l1: "Tournaments Creation ",
+      l2: "Discover Teams/Players",
+      l3: "Game APIs",
+      l4: "Ranking",
       year: "2024",
       tag: "Q1",
     },
     {
-      l1: "Launch speed and Private Sale(Completed) ",
-      l2: "Launch the staking NFT system",
-      l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
-      l4: "build Mave NFT Marketpalce",
+      l1: "Open ALPHA Release",
+      l2: "Community",
+      l3: "Discover Coaches/Jobs/Arenas",
+      l4: "Premium Profile",
+      l5: "Ladders (Tournament)",
+      l6: "Wagers",
       year: "2024",
       tag: "Q2",
     },
     {
-      l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
-      l2: "Launch the staking NFT system",
-      l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
-      l4: "build Mave NFT Marketpalce",
+      l1: "BETA Release ",
+      l2: "Season Pass",
+      l3: "Multiplayer League",
+      l4: "Marketpalce",
+      l5: "Detailed Matches Page",
       year: "2024",
       tag: "Q3",
     },
     {
-      l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
-      l2: "Launch the staking NFT system",
-      l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
-      l4: "build Mave NFT Marketpalce",
+      l1: "Mobile App BETA ",
+      l2: "Scrim feature",
+      l3: "Cwordfunded Tournaments",
+      l4: "Masterclasses",
+      l5: "Clubs",
+      l6: "NFTs",
       year: "2024",
       tag: "Q4",
-    },
-    {
-      l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
-      l2: "Launch the staking NFT system",
-      l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
-      l4: "build Mave NFT Marketpalce",
-      year: "2024",
-      tag: "Q5",
-    },
-    {
-      l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
-      l2: "Launch the staking NFT system",
-      l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
-      l4: "build Mave NFT Marketpalce",
-      year: "2024",
-      tag: "Q6",
-    },
+    }
   ];
 
   const settings = {
@@ -145,6 +141,8 @@ const Roadmap = () => {
                 l2={item.l2}
                 l3={item.l3}
                 l4={item.l4}
+                l5={item.l5}
+                l6={item.l6}
               />
             ))}
 

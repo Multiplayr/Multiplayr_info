@@ -54,8 +54,11 @@ const Teams = () => {
 
       <div className={styles.teams}>
         <Slider {...settings}>
-          {members.map((member, id) => {
-            return <TeamItem key={id} member={member} />;
+          {
+          members.map((member, id) => {
+            return 
+               <TeamItem key={id} member={member} />;
+            
           })}
         </Slider>
       </div>

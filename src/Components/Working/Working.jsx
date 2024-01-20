@@ -19,14 +19,14 @@ const Working = () => {
       title: "ranking system",
       src: "assets/images/screen/ranking.png",
 
-      des: `A global and local ranking system for all teams, including those not currently on the platform.`,
+      des: ` This is developed through our own proprietary algorithm, which categorizes the tournaments according to their tiers and ranks the teams that participate in them.`,
     },
 
     {
       title: "Tournament Automation",
       src: "assets/images/screen/tournament.png",
 
-      des: `Enabling organizers to automate the bracket system for streamlined tournament management.`,
+      des: `Multiplayr's automation is more robust and user-friendly.`,
     },
   ];
 
@@ -56,8 +56,8 @@ const Working = () => {
           alt=""
         /> */}
         <HeadingSection
-          type={"how it works"}
-          title={"The Ignition Of Metaverse"}
+          type={"CHANGING THE GAME"}
+          title={"Tailor-made for everyone"}
         />
         {/* <div className="head">
           <h3 className="head_about">how it works</h3>
