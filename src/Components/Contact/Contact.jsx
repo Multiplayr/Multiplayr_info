@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Contact.module.css'
 
+
 const Contact = () => {
     return (
         <>
@@ -15,15 +16,15 @@ const Contact = () => {
                         <img lassName={styles.img3} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />
                         <img lassName={styles.img4} src='	https://unistudio.co/html/nerko/assets/images/objects/star-01.svg' alt='' />  */}
                         <div className={styles.discordHeading}>
-                            <h1>JOIN US VIA </h1>
+                            <h1>Join the  </h1>
                         </div>
 
                         <div className={styles.discordTitle}>
-                            <h1>Email</h1>
+                            <h1>WAITLIST</h1>
                         </div>
-                        <p>Build your Team and Conquer the World</p>
+                        {/* <p>Build your Team and Conquer the World</p> */}
 
-                        <button className={styles.discordbtn}>Join via Email</button>
+                        <button className={styles.discordbtn}> Email</button>
 
                     </div>
 
@@ -49,10 +50,10 @@ const Contact = () => {
                         </div>
                         <div className={styles.condition}>
                             <span>Privacy</span>
-                            <span>Term of use</span>
+                            <span>Terms of use</span>
                         </div>
                         <div className={styles.reserved}>
-                            <p>@2024 Multiplayr Esports Private Limited.All rights reserved.</p>
+                            <p style={{color:"gray",fontSize:"14px"}}><span className='condition'>@2024 Multiplayr Esports Private Limited. All rights reserved.</span></p>
                         </div>
                     </div>
 

@@ -77,7 +77,7 @@
 
 .wrapper h1 {
   font-family: var(--headingFontFamily);
-  font-size: 40px; /* Adjust font size for smaller screens */
+  font-size: 55px; /* Adjust font size for smaller screens */
   font-weight: bold;
   line-height: 45px; /* Adjust line height for smaller screens */
   color: var(--whiteColor);
@@ -125,11 +125,52 @@
   html, body {
     font-size: 20px; /* Adjust the base font size for larger screens */
   }
+
+  .inner-div-left {
+    padding: 4rem; /* Adjust padding for smaller screens */
+    margin: 1rem; /* Adjust margin for smaller screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
  
 
   .wrapper p {
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .img-ani-scale {
+    height: 700px;
+    margin: 0 auto;
+    margin-right: 0;
+    width: auto;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  
+  .wrapper h1 {
+    font-family: var(--headingFontFamily);
+    font-size: 75px; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    line-height: 45px; /* Adjust line height for smaller screens */
+    color: var(--whiteColor);
+    text-align: left;
+    margin-bottom: 20px;
+    /* margin: 20px 0; */
+  }
+  
+  .wrapper p {
+    margin: 1rem auto;
+    font-size: 20px; /* Adjust font size for smaller screens */
+    color: #beb8cc;
+    line-height: 24px; /* Adjust line height for smaller screens */
   }
 
 }
@@ -191,7 +232,7 @@
   }
 
   .img-ani-scale {
-    height: 18rem;
+    height: 16rem;
     padding-top: 2vh;
   }
 
@@ -228,7 +269,7 @@
 
 
 
-@keyframes on-off {
+@keyframes on-off { 
   0% {
     opacity: 0;
   }

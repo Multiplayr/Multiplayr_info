@@ -31,8 +31,12 @@ function Home() {
             <div className="wrapper">
               <h1 className="">FORGE YOUR LEGACY</h1>
               <p className="leading-tight text-wrap">
-                Multiplayr is an esports infrastructure platform for team discovery and management,
-                tournament creation with real-time stats, and global and local rankings.
+              Multiplayr empowers players to forge their legacy through personalized team and player discovery, while offering organizers hassle-free tournament hosting through automated brackets. Performance-based rankings covers local to global tournament.
+              
+             
+             <p> Our mission is to enable players to build a career in esports.</p>
+             
+
               </p>
             </div>
             <div className="mt-12 md:mt-3 sm:mt-3 ">
@@ -44,7 +48,7 @@ function Home() {
               </Link>
 
               <Link
-                  to={"https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"}
+                  to="https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"
                 className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-base px-7 lg:px-7 py-2 lg:py-2 mr-2 focus:outline-none z-50"
               >
                 Whitepaper

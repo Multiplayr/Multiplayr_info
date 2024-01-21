@@ -9,17 +9,17 @@ const Working = () => {
 
   const a = [
     {
-      title: "targated discovery",
+      title: "targeted discovery",
       src: "assets/images/screen/discovery.png",
 
-      des: `Discover feature for teams, players, tournaments, jobs, and coaches based on user specifications. For eg: You can search players who speak the same language, timing, region, MMR (game ranking system) and more.`,
+      des: `Multiplayr empowers players to forge their legacy through personalized team and player discovery, while offering organizers hassle-free tournament hosting through automated brackets. Performance-based rankings cover local to global tournaments, providing a comprehensive approach to tracking teams' success in the esports ecosystem. `,
     },
 
     {
       title: "ranking system",
       src: "assets/images/screen/ranking.png",
 
-      des: ` This is developed through our own proprietary algorithm, which categorizes the tournaments according to their tiers and ranks the teams that participate in them.`,
+      des: `This is developed through our own proprietary algorithm, which categorizes the tournaments according to their tiers and ranks the teams that participate in them.`,
     },
 
     {
@@ -35,19 +35,19 @@ const Working = () => {
       <div className="container" id="pico">
         <img
           className="overlay-rot-img-b"
-          src="/assets/images/banner/banner-shape-4-1.png"
+          src="/assets/images/banner/banner-shape-4-2.png"
           alt=""
         />
 
         <img
           className="overlay-rot-img-c"
-          src="/assets/images/banner/banner-shape-4.png"
+          src="/assets/images/banner/banner-shape-4-2.png"
           alt=""
         />
 
         <img
           className="working-overlay-img"
-          src="/assets/images/banner/banner-shape-2-1.png"
+          src="/assets/images/banner/banner-shape-2-2.png"
           alt=""
         />
         {/* <img
@@ -59,7 +59,7 @@ const Working = () => {
           type={"CHANGING THE GAME"}
           title={"Tailor-made for everyone"}
         />
-        {/* <div className="head">
+        {/* <div className="head"> 
           <h3 className="head_about">how it works</h3>
           <h1 className="head_title">The Ignition Of Metaverse</h1>
         </div> */}
@@ -67,17 +67,17 @@ const Working = () => {
         <ul className="listItems">
           <div className="working-eff">
             <li
-              className={`listItem ${selectedBtn == 0 ? "select-focus" : ""}`}
+              className={`listItem ${selectedBtn === 0 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(0)}
             >
-              Targated Discovery
+              Targeted Discovery
             </li>
             <span className="eff-a"></span>
           </div>
 
           <div className="working-eff">
             <li
-              className={`listItem ${selectedBtn == 1 ? "select-focus" : ""}`}
+              className={`listItem ${selectedBtn === 1 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(1)}
             >
               Ranking System
@@ -85,8 +85,8 @@ const Working = () => {
             <span className="eff-a"></span>
           </div>
           <div className="working-eff">
-            <li 
-              className={`listItem ${selectedBtn == 2 ? "select-focus" : ""}`}
+            <li
+              className={`listItem ${selectedBtn === 2 ? "select-focus" : ""}`}
               onClick={() => setSelectedBtn(2)}
             >
               Tournament Automation

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from "./NewsCard.module.css"
 
 export const NewsCard = ({ update: { imageSrc, createdAt, description, image_alt } }) => {
@@ -11,7 +12,7 @@ export const NewsCard = ({ update: { imageSrc, createdAt, description, image_alt
           <p className={styles.createdAt}>{createdAt}</p>
           <h3>{description}</h3>
           <div className={styles.readMoreContainer}>
-            <p>READ MORE</p>
+            <Link to="/news"><p>READ MORE</p></Link>
           </div>
           
         </div>

@@ -13,49 +13,38 @@ const Roadmap = () => {
   const [selectedBtn, setSelectedBtn] = useState(0);
   const data = [
     {
-      l1: "Tournaments",
-      l2: "Profiles",
-      l3: "Dashboard",
-      l4: "Closed ALPHA Release",
-      year: "2023"
+      list : ["Tournament","Profile","Dashboard","Closed ALPHA Release"],
+      year: "2023",
+      tag: "",
     },
     {
-      l1: "Tournaments Creation ",
-      l2: "Discover Teams/Players",
-      l3: "Game APIs",
-      l4: "Ranking",
+      list : ["Tournaments Creation","Discover Teams/players","Game APIs","Ranking"],
       year: "2024",
       tag: "Q1",
     },
     {
-      l1: "Open ALPHA Release",
-      l2: "Community",
-      l3: "Discover Coaches/Jobs/Arenas",
-      l4: "Premium Profile",
-      l5: "Ladders (Tournament)",
-      l6: "Wagers",
+      list: ["Open ALPHA Release","Community","Discover Coaches/Jobs/Arenas","Premium Profile","Ladders (Tournament)","Wagers"],
       year: "2024",
       tag: "Q2",
     },
     {
-      l1: "BETA Release ",
-      l2: "Season Pass",
-      l3: "Multiplayer League",
-      l4: "Marketpalce",
-      l5: "Detailed Matches Page",
+      list : ["BETA Release ","Season Pass","Multiplayr League","Marketplace","Detailed Matches page"],
       year: "2024",
       tag: "Q3",
     },
     {
-      l1: "Mobile App BETA ",
-      l2: "Scrim feature",
-      l3: "Cwordfunded Tournaments",
-      l4: "Masterclasses",
-      l5: "Clubs",
-      l6: "NFTs",
+      list:["Mobile App BETA","Scrim feature","Cwordfunded Tournaments","Masterclasses","Clubs","NFTs"],
       year: "2024",
       tag: "Q4",
-    }
+    },
+    // {
+    //   l1: "Indroduce the collaction of NFT for rare artworks and conduct auctions ",
+    //   l2: "Launch the staking NFT system",
+    //   l3: "Introduce the system supporting artworks ,stablish standard storage and preservation centers for artwork",
+    //   l4: "build Mave NFT Marketpalce",
+    //   year: "2024",
+    //   tag: "Q6",
+    // },
   ];
 
   const settings = {
@@ -67,16 +56,23 @@ const Roadmap = () => {
     arrows: false,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 950,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         }
       },
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
         }
       }
@@ -114,7 +110,7 @@ const Roadmap = () => {
       console.log(setSelectedBtn)
 
     } else {
-      setSelectedBtn(selectedBtn + 1);
+      setSelectedBtn(selectedBtn + 1); 
 
     }
   };
@@ -137,12 +133,7 @@ const Roadmap = () => {
               <RoadMapItem
                 year={item.year}
                 tag={item.tag}
-                l1={item.l1}
-                l2={item.l2}
-                l3={item.l3}
-                l4={item.l4}
-                l5={item.l5}
-                l6={item.l6}
+                list={item.list}
               />
             ))}
 

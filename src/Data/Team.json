@@ -1,26 +1,17 @@
- {
+ [
   
-  
-        "team1" : [
+
           {
             "image": "assets/images/teams/sonu.jpg",
             "name": "Sonu Singh",
             "position": "Co-founder/Playr-in-Chief"
           },
+          
+          
           {
             "image": "assets/images/teams/abhishek.jpg",
             "name": "Abhishek Gupta",
             "position": "Co-founder/Code Commander in Chief"
-          },
-          {
-            "image": "assets/images/teams/heroImage.png",
-            "name": "Shan Raj",
-            "position": "Tech Comrade"
-          },
-          {
-            "image": "assets/images/teams/heroImage.png",
-            "name": "Amitarjit",
-            "position": "Tech Comrade"
           },
           
           {
@@ -28,28 +19,34 @@
             "name": "Sagrika Paliwal",
             "position": "Chief Social Interaction Officer"
           },
+         
           {
             "image": "assets/images/teams/heroImage.png",
             "name": "Purnima Singh",
             "position": "Digital Explorer-in-Chief"
-          }
+          },
+          {
+            "image": "assets/images/teams/om.jpg",
+            "name": "Om Yadav",
+            "position": "Full Stack Comrade"
+          },
+          {
+            "image": "assets/images/teams/amitrajit.jpg",
+            "name": "Amitrajit Bose",
+            "position": "Tech Comrade"
+          },
+
+          {
+            "image": "assets/images/teams/heroImage.png",
+            "name": "Shan Raj",
+            "position": "Tech Comrade"
+          },
+          {
+            "image": "assets/images/teams/gauravthawait.png",
+            "name": "Gaurav Thawait",
+            "position": "Full Stack Comrade"
+          },
           
-        ],
-
-
-
-    "team2" : [
-
-      {
-        "image": "assets/images/teams/om.jpg",
-        "name": "Om Yadav",
-        "position": "Full Stack Comrade"
-      },
-      {
-        "image": "assets/images/teams/gaurav.png",
-        "name": "Gaurav Thawait",
-        "position": "Full Stack Comrade"
-      },
       {
         "image": "assets/images/teams/swayam.jpg",
         "name": "Swayam Karn",
@@ -70,6 +67,5 @@
         "name": "Anamika Paliwal",
         "position": "Social Alchemist"
       }
-    ]
+  ]
 
-}

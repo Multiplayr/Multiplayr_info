@@ -6,11 +6,12 @@
   .content {
     background: var(--mp-primaryGrad);
     height: auto;
-    margin: 10px 15%;
+    margin: 90px 15%;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
   
   .partners {
@@ -36,7 +37,7 @@
   } 
 
 
-  @media (max-width:425px) {
+  @media (max-width:424px) {
 
     .partner {
       height: auto;
@@ -44,16 +45,18 @@
       width: 200px;
       transition: transform 1s ease-in-out; 
     }
-    
+    .content {
+        margin-top: 20px;
+      }
   }
   
-  @media (min-width:426px)and(max-width: 767px) {
-    .partner {
+  @media (min-width:425px)and(max-width: 767px) {
+    /* .partner {
       height: auto;
       margin: 1rem 1rem;
       width: 200px;
       transition: transform 1s ease-in-out; 
-    }
+    } */
     .partners {
       
       gap: 5px;
@@ -66,13 +69,18 @@
       margin: 10px 15px;
       
     }
+    .content {
+        margin: 50px 0px;
+      }
   }
   
   /*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
   @media (min-width: 768px) and (max-width: 1024px) 
   
     {
-      
+      /* .content {
+        margin-top: 80px;
+      } */
      
   
     

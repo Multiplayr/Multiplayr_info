@@ -6,23 +6,28 @@ import {
   Route,
   RouterProvider,
   createBrowserRouter,
-  createRoutesFromElements,
+  createRoutesFromElements,ScrollRestoration
 } from "react-router-dom";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
 import Layout from "./Components/Layout/Layout";
-import { Contact, Home, News, Working,Partner} from "./Components";
+import { Contact, Home, News, Working,Partner, Blogs} from "./Components";
+import { Scroller } from "./Components/Common";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    <>
+    
     <Route path="/" element={<Layout />}>
+    
       <Route path="" element={<App/>} />
       <Route path="contact" element={<Contact />} /> 
-      <Route path="news" element={<News />} />
+      <Route path="news" element={<Blogs />} />
+      <Route path="blog" element={<Blogs/>} />
       <Route path="*" element={<Navigate to="/" />} />
     </Route>
-  )
+    </>)
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -31,4 +36,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 
-reportWebVitals();
+

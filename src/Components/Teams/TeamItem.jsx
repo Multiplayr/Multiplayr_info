@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 import styles from "./TeamCard.module.css";
 import 'font-awesome/css/font-awesome.min.css';
 
-const TeamItem = ({ member: { image, name, position } }) => {
+const TeamItem = ({ member: { image, name, position, },id, gaurav}) => {
     return (
         <div className={styles.TeamItem}>
             <div className={styles.container}>
                 <div className={styles.image}>
-                    <img src={image} alt="projecttitle" />
+                    <img src={gaurav[id].image} alt="projecttitle" />
                 </div>
-                <h3 className={styles.title}>{name}</h3>
-                <p className={styles.description}>{position}</p>
+                <h3 className={styles.title}>{gaurav[id].name}</h3>
+                <p className={styles.description}>{gaurav[id].position}</p>
                 <div className={styles.social}>
                     <Link to={"#"}>
                         <i className="fa fa-facebook" aria-hidden="true"></i>
@@ -29,10 +29,10 @@ const TeamItem = ({ member: { image, name, position } }) => {
             </div>
             <div className={styles.container}>
                 <div className={styles.image}>
-                    <img src={image} alt="projecttitle" />
+                    <img src={gaurav[id+1].image} alt="projecttitle" />
                 </div>
-                <h3 className={styles.title}>{name}</h3>
-                <p className={styles.description}>{position}</p>
+                <h3 className={styles.title}>{gaurav[id+1].name}</h3>
+                <p className={styles.description}>{gaurav[id+1].position}</p>
                 <div className={styles.social}>
                     <Link to={"#"}>
                         <i className="fa fa-facebook" aria-hidden="true"></i>

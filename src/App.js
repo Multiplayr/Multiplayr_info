@@ -3,12 +3,13 @@ import { Home,Feature, Working,Partner,Roadmap,Teams,News } from "./Components";
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { CursorFollower } from "./Components/Common";
+import { CursorFollower,Scroller } from "./Components/Common";
 function App() {
 
   return (
     <>
       <div className="relative flex flex-col">
+      
       <Home/>
       <Feature/>
       <Working/>

@@ -1,16 +1,12 @@
 .container{
-    width: 350px;
-    height: 450px;
+    
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: center;
+    justify-content: flex-start;
     transition: 0.3s ease-out;
-    margin: 20px 10px;
 
 }
-
-
 
 .container:hover{
     transform: scale(1.02);
@@ -28,8 +24,8 @@
 .newsContent{
     display: flex;
     flex-direction:row;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin-top: 30px;
     font-family: var(--headingFontFamily);
     
@@ -67,7 +63,7 @@
   font-size: 15px;
   letter-spacing: .1em;
   color: var(--primaryColor);
-  background: var(--mp-primaryGrad);
+  background: var(--mp-primaryGrad); 
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -83,3 +79,52 @@
     transition: var(--transition);
     background: linear-gradient(135deg,#FA26CA 0%,#712AF9 100%);
 } */
+
+
+
+@media (max-width:425px) {
+ 
+    .container{
+    
+        min-width: 100%;
+        /* flex-direction: column; */
+        
+    
+    }
+    .newsImage{
+        gap: 10px;
+        height: 300px;
+        width: 400px;
+        border-radius: 15px;
+    
+    }
+}
+
+@media (min-width:426px)and(max-width: 767px) {
+    
+   
+}
+
+/*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
+@media (min-width: 768px) and (max-width: 1024px) 
+
+  {
+    .container{
+    
+        min-width: 100%;
+        /* flex-direction: column; */
+        
+    
+    }
+    .newsImage{
+        gap: 10px;
+        height: 300px;
+        width: 400px;
+        border-radius: 15px;
+    
+    }
+    
+ 
+
+  
+  }

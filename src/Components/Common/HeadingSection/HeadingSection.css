@@ -5,6 +5,7 @@
   position: relative;
   display: block;
   z-index: 10;
+  margin-bottom:60px;
 }
 
 .heading-title {
@@ -72,3 +73,27 @@
     line-height: 20px; /* Adjust line height for smaller screens */
   }
 }
+
+/* ----------------heading responsive---------------------------- */
+@media (max-width:425px) {
+ 
+
+}
+
+@media (min-width:426px)and(max-width: 767px) {
+  
+}
+
+/*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
+@media(min-width: 1024px){
+
+
+.heading-title span {
+  font-size: 25px;
+  letter-spacing: 0.05em;
+    
+   
+
+  
+  }
+} 
