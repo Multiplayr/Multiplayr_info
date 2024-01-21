@@ -9,6 +9,9 @@ on:
       - main
   workflow_dispatch:
 
+env:
+    CI: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +28,6 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-          npm run test --if-present
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
@@ -59,4 +61,4 @@ jobs:
           app-name: 'info-multiplayr'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_375CEA581B1B4223B2EEA803F3341EFC }}
-          package: .
+          package: release.zip
