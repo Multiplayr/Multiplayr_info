@@ -61,4 +61,4 @@ jobs:
           app-name: 'info-multiplayr'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_375CEA581B1B4223B2EEA803F3341EFC }}
-          package: release.zip
+          package: .
