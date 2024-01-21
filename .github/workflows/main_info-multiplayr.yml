@@ -9,12 +9,9 @@ on:
       - main
   workflow_dispatch:
 
-env:
-    CI: false
-
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -28,15 +25,13 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-
-      - name: Zip artifact for deployment
-        run: zip release.zip ./build/* -r
+          npm run test --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: release.zip
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -51,14 +46,11 @@ jobs:
         with:
           name: node-app
 
-      - name: Unzip artifact for deployment
-        run: unzip release.zip
-
       - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
+        id: deploy-to-webapp
         with:
           app-name: 'info-multiplayr'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_375CEA581B1B4223B2EEA803F3341EFC }}
-          package: ./build/
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22D01CA31A0D4868A0F6CC8F9A3A8EC4 }}
+          package: .
