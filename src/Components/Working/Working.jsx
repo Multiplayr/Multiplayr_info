@@ -12,7 +12,7 @@ const Working = () => {
       title: "targeted discovery",
       src: "assets/images/screen/discovery.png",
 
-      des: `Multiplayr empowers players to forge their legacy through personalized team and player discovery, while offering organizers hassle-free tournament hosting through automated brackets. Performance-based rankings cover local to global tournaments, providing a comprehensive approach to tracking teams' success in the esports ecosystem. `,
+      des: `Multiplayr empowers players to forge their legacy through personalized team and player discovery, while offering organizers hassle-free tournament hosting through automated brackets. Performance-based rankings cover local to global tournaments, providing a comprehensive approach to tracking teams' success in the esports ecosystem.`,
     },
 
     {
