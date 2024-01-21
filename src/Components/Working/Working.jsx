@@ -12,21 +12,21 @@ const Working = () => {
       title: "targeted discovery",
       src: "assets/images/screen/discovery.png",
 
-      des: `Discover feature for teams, players, tournaments, jobs, and coaches based on user specifications. For eg: You can search players who speak the same language, timing, region, MMR (game ranking system) and more.`,
+      des: `Multiplayr empowers players to forge their legacy through personalized team and player discovery, while offering organizers hassle-free tournament hosting through automated brackets. Performance-based rankings cover local to global tournaments, providing a comprehensive approach to tracking teams' success in the esports ecosystem. `,
     },
 
     {
       title: "ranking system",
       src: "assets/images/screen/ranking.png",
 
-      des: `A global and local ranking system for all teams, including those not currently on the platform.`,
+      des: `This is developed through our own proprietary algorithm, which categorizes the tournaments according to their tiers and ranks the teams that participate in them.`,
     },
 
     {
       title: "Tournament Automation",
       src: "assets/images/screen/tournament.png",
 
-      des: `Enabling organizers to automate the bracket system for streamlined tournament management.`,
+      des: `Multiplayr's automation is more robust and user-friendly.`,
     },
   ];
 
@@ -56,8 +56,8 @@ const Working = () => {
           alt=""
         /> */}
         <HeadingSection
-          type={"how it works"}
-          title={"Addressing Market Needs"}
+          type={"CHANGING THE GAME"}
+          title={"Tailor-made for everyone"}
         />
         {/* <div className="head"> 
           <h3 className="head_about">how it works</h3>

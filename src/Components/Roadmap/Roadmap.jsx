@@ -13,44 +13,27 @@ const Roadmap = () => {
   const [selectedBtn, setSelectedBtn] = useState(0);
   const data = [
     {
-      l1: "Tournament Creation ",
-      l2: "DISCOVER feature",
-      l3: "RANKING feature",
-      l4: "Wagers",
+      list : ["Tournament","Profile","Dashboard","Closed ALPHA Release"],
       year: "2023",
-      tag: "Q4",
+      tag: "",
     },
     {
-      l1: "Open ALPHA Release ",
-      l2: "Community",
-      l3: "Premium Profile",
-      l4: "Ladders (Tournament)",
-      l5: "Season Pass",
+      list : ["Tournaments Creation","Discover Teams/players","Game APIs","Ranking"],
       year: "2024",
       tag: "Q1",
     },
     {
-      l1: "BETA Release",
-      l2: "Multiplayr League",
-      l3: "Marketplace",
-      l4: "Detailed Matches page",
-      l5: "Brands/Companies",
+      list: ["Open ALPHA Release","Community","Discover Coaches/Jobs/Arenas","Premium Profile","Ladders (Tournament)","Wagers"],
       year: "2024",
       tag: "Q2",
     },
     {
-      l1: "Scrim feature ",
-      l2: "Cwordfunded",
-      l3: "Tournaments",
-      l4: "Masterclasses",
+      list : ["BETA Release ","Season Pass","Multiplayr League","Marketplace","Detailed Matches page"],
       year: "2024",
       tag: "Q3",
     },
     {
-      l1: "Clubs ",
-      l2: "NFT ",
-      l3: "Mobile App BETA",
-      l4: "Brands/Companies",
+      list:["Mobile App BETA","Scrim feature","Cwordfunded Tournaments","Masterclasses","Clubs","NFTs"],
       year: "2024",
       tag: "Q4",
     },
@@ -150,10 +133,7 @@ const Roadmap = () => {
               <RoadMapItem
                 year={item.year}
                 tag={item.tag}
-                l1={item.l1}
-                l2={item.l2}
-                l3={item.l3}
-                l4={item.l4}
+                list={item.list}
               />
             ))}
 
