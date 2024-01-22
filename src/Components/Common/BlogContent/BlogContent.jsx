@@ -6,12 +6,12 @@ import updates from "../../../Data/Blogs.json";
 const BlogContent = ({key_id}) => {
 
     const title=[...updates];
-    console.log("inside blog section     ",title);
+    console.log("inside blog section     ",);
     
   return (
     <div className="h-[100vh] w-full p-[5%]" >
 
-     <HeadingSection type={"articles"} title={title}  />
+     <HeadingSection type={"articles"} title={"Multiplayr: Forging a New Era in Esports - The Genesis and Vision"}  />
     </div>
   )
 }
