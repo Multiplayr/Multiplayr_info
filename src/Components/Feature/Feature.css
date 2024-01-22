@@ -81,8 +81,7 @@
 
 @media (min-width: 1380px) {
   .single-item {
-    height: 29rem;
-
+    height: 27rem; 
     border-radius: 30px;
     padding: 20px 30px;
     width: 26%;

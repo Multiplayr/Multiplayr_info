@@ -1,8 +1,6 @@
 
 
 .Container{
-
-
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
@@ -10,8 +8,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
-
 }
 
 
@@ -70,7 +66,6 @@
 }
 
 /* ----------------card item ------------------ */
-
 
 
 @media (max-width:425px) {

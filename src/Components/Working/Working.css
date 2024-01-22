@@ -84,7 +84,7 @@
 }
 
 .select-focus {
-  background: linear-gradient(to right, var(--mp-grayDark), var(--mp-black)) padding-box,
+  background: linear-gradient(to right, #24282c, #1d1d1f) padding-box,
     var(--mp-primaryGrad) border-box;
   border: 4px solid transparent;
   animation: gradientAnimation 0.5s ease-in-out infinite;

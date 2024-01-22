@@ -34,7 +34,7 @@ function Home() {
               Multiplayr empowers players to forge their legacy through personalized team and player discovery, while offering organizers hassle-free tournament hosting through automated brackets. Performance-based rankings covers local to global tournament.
               
              
-             <p> Our mission is to enable players to build a career in esports.</p>
+             <p> Our mission is clear to enable gamers to build a career in esports.</p>
              
 
               </p>
