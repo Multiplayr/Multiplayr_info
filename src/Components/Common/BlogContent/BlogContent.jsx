@@ -1,6 +1,6 @@
 import React from 'react'
 import HeadingSection from '../HeadingSection/HeadingSection'
-import updates from "../../../Data/Blogs.json";
+import updates from "../../../Data/Blog.json";
 
 
 const BlogContent = ({key_id}) => {
