@@ -248,6 +248,8 @@ font-weight: 700;
   
 }
 
+
+
 /*---------------- Styles for screens with a minimum width of 768px and maximum width of 1023px (tablets) --------------------*/
 @media (min-width: 768px) and (max-width: 1024px) 
  {
