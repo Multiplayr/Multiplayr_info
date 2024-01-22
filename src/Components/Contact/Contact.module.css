@@ -2,7 +2,7 @@
     margin: 70px 0;
     align-items: center;
     justify-content: center;
-    height: 30vh;
+    height: 45vh;
     
     display: flex;
     flex-direction: column;
@@ -17,6 +17,19 @@
     /* height: 500px; */
     width: 100%;
 }
+.email-box{
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email-input{
+    border: 1px solid #b7fd20;
+    margin : 10px 5px;
+} 
+
 
 .discordContent{
     display: flex;
@@ -88,6 +101,11 @@ font-weight: 700;
     letter-spacing: normal;
     margin-top: 30px;
     color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: 110px;
+   
+    
 }
 
 /* .discordbtn:hover{
@@ -140,6 +158,7 @@ font-weight: 700;
 .footer{
     display: flex;
     flex-direction: column;
+    
     
 }
  .condition {
@@ -195,6 +214,7 @@ font-weight: 700;
             border-radius: 30px;
             letter-spacing: normal;
             margin-top: 30px;
+            margin-left: 90px;
             
         }
         .socialIcons i{
