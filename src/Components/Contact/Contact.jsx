@@ -24,7 +24,9 @@ const Contact = () => {
                         </div>
                         {/* <p>Build your Team and Conquer the World</p> */}
 
+                    
                         <button className={styles.discordbtn}> Email</button>
+                    
 
                     </div>
 
