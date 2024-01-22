@@ -73,15 +73,18 @@
   width: 29%;
   min-width: 338px;
   max-width: 500px;
+  min-height:500px;
   box-sizing: border-box;
   margin: 10px;
   /* min-width: 300px; */
   overflow: hidden;
+  aspect-ratio: 4/3;
 }
 
 @media (min-width: 1380px) {
   .single-item {
-    height: 27rem; 
+    height: 29rem;
+
     border-radius: 30px;
     padding: 20px 30px;
     width: 26%;
@@ -188,14 +191,14 @@
     margin: 50px 0px;
   }
 }
-@media (min-width: 425px){
+@media (max-width: 425px){
   .row{
     margin: 30px 0px;
   }
 }
 
 
-@media (min-width: 425px){
+@media (max-width: 425px){
   .row{
     margin: 30px 0px;
   }
