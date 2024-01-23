@@ -123,6 +123,15 @@
     margin-right: 0;
     width: auto;
   }
+    .wrapper h1 {
+    font-family: var(--headingFontFamily);
+    font-size: 75px; /* Adjust font size for larger screens */
+    font-weight: bold;
+    line-height: 45px; /* Adjust line height for larger screens */
+    color: var(--whiteColor);
+    text-align: left;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1380px) and (max-width: 1600px) {
