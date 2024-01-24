@@ -2,6 +2,7 @@
 // import { Link } from "react-router-dom";
 import "./Blogs.css"; // Import your CSS file
 import { News } from "..";
+import { BlogContent } from "../Common";
 
 
 
@@ -35,14 +36,17 @@ function Blogs() {
             </div>
 
           </div>
-        <News/>
+        
+        {/* <News/> */}
         <div className="blog-content">
 
         
         </div>
 
         </div>
+        <BlogContent/>
       </div>
+      
 
   );
 }

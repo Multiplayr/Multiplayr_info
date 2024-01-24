@@ -1,20 +1,20 @@
 [
     {   
-        "imageSrc": "assets/images/blog/blog-1.jpg",
+        "imageSrc": "assets/images/blogDetails/Blog1.jpg",
         "image_alt": "blog-1",
         "createdAt": "27TH MAR, 2024",
-        "description": "Next Earth's Agenda and Other Updates In A Whole"
+        "description": "Multiplayr: Forging a New Era in Esports - The Genesis and Vision"
     },
     {  
-         "imageSrc": "assets/images/blog/blog-2.jpg",
+         "imageSrc": "assets/images/blogDetails/Blog2.jpg",
         "image_alt": "blog-2",
         "createdAt": "27TH MAR, 2024",
-        "description": "Next Earth's Soon to Launch Staking and Other Updates"
+        "description": "Level Up: Securing a Spot in STPINEXT Initiatives Accelerator Program"
     },
     {
-        "imageSrc": "assets/images/blog/blog-3.jpg",
+        "imageSrc": "assets/images/blogDetails/Blog3.jpg",
         "image_alt": "blog-3",
         "createdAt": "27TH MAR, 2024",
-        "description": "Next Earth Token, NXTT, Set to Gain Value From Burn"
+        "description": " Multiplayr Joins the Gaming Vanguard: A Triumph in the IA PowerPlay Accelerator Program."
     }
 ]
