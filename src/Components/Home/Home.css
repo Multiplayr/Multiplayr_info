@@ -116,6 +116,7 @@
 }
 
 /* Media Query for Larger Screens */
+
 @media (min-width: 1600px) {
   .img-ani-scale {
     height: 800px; /* Adjust height for even larger screens */
@@ -125,13 +126,18 @@
   }
     .wrapper h1 {
     font-family: var(--headingFontFamily);
-    font-size: 75px; /* Adjust font size for larger screens */
+    font-size: 90px; /* Adjust font size for larger screens */
     font-weight: bold;
     line-height: 45px; /* Adjust line height for larger screens */
     color: var(--whiteColor);
     text-align: left;
     margin-bottom: 20px;
   }
+  .wrapper p {
+    font-size: 1.3rem;
+    line-height: 1.95rem;
+  }
+
 }
 
 @media (min-width: 1380px) and (max-width: 1600px) {

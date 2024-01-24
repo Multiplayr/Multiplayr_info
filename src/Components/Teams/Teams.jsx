@@ -52,20 +52,20 @@ const Teams = () => {
       </div> */}
       <HeadingSection type={"team members"} title={"Meet The Team Behind The Scene"} />
 
-      <div className={styles.teams}>
-        <Slider {...settings}>
-          {members.map((member, id, gaurav) => {
-            console.log("\t \t", id) 
 
-            if(id%2===0) {
-            return <TeamItem key={id} member={member} gaurav={gaurav} id={id}/>;
-            }
-        
+        <div className={styles.teams}>
+            <Slider {...settings}>
+              {members.map((member, id, gaurav) => {
+                console.log("\t \t", id) 
+
+                if(id%2===0) {
+                return <TeamItem key={id} member={member} gaurav={gaurav} id={id}/>;
+                }
             
-          })}
-        </Slider>
-      </div>
-
+                
+              })}
+            </Slider>
+          </div>
     </section>
   );
 };
