@@ -1,8 +1,57 @@
 import React from 'react'
 import styles from './Contact.module.css'
-
+import { useState } from 'react'
+import axios from 'axios'
+import { toast, ToastContainer } from 'react-toastify'
 
 const Contact = () => {
+
+    //from state
+    const[email, setEmail] = useState('')
+    const time = new Date().toLocaleString()    
+
+
+    //validation of Email 
+    const validateEmail = (email) => {
+        // Simple email validation using regular expression
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    };
+
+
+    //submit event
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+
+        const data = {
+            Email: email,
+            Date: time
+        }
+
+        if (!validateEmail(email)) {
+            // Email is not valid
+            toast.error('Invalid email address');
+            return;
+        }
+
+        try{
+            const response = axios.post('https://sheet.best/api/sheets/023156ef-d04b-4efa-80f5-e07aebec3588', data)
+            console.log(response)
+
+            //clearing Fields
+            setEmail('')
+        } catch(error) {
+            console.error('Error submitting Email', error)
+
+            // Show error toast
+            toast.error('Error submitting form. Please try again later.');
+        }
+
+    
+    }
+
+
+
     return (
         <>
             <section className={styles.container}>
@@ -54,8 +103,9 @@ const Contact = () => {
                         </div> */} 
 
                         <div className={styles.emailBox}>
-                            <form>
-                            <input type="text" name="name" placeholder='Enter your Email' className={styles.emailInput}/>
+                            <form onSubmit={handleSubmit}>
+                            <input type="text" name="name" placeholder='Enter your Email' className={styles.emailInput} 
+                            onChange={(e)=>setEmail(e.target.value)} value={email}/>
                                 
                             <button type="submit"  className={styles.submitBtn}>Send</button>
                             </form>

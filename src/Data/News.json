@@ -1,4 +1,11 @@
-[
+[   
+    
+    {
+        "imageSrc": "assets/images/blogDetails/Blog3.jpg",
+        "image_alt": "blog-3",
+        "createdAt": "27TH MAR, 2024",
+        "description": " Multiplayr Joins the Gaming Vanguard: A Triumph in the IA PowerPlay Accelerator Program."
+    },
     {   
         "imageSrc": "assets/images/blogDetails/Blog1.jpg",
         "image_alt": "blog-1",
@@ -10,11 +17,6 @@
         "image_alt": "blog-2",
         "createdAt": "27TH MAR, 2024",
         "description": "Level Up: Securing a Spot in STPINEXT Initiatives Accelerator Program"
-    },
-    {
-        "imageSrc": "assets/images/blogDetails/Blog3.jpg",
-        "image_alt": "blog-3",
-        "createdAt": "27TH MAR, 2024",
-        "description": " Multiplayr Joins the Gaming Vanguard: A Triumph in the IA PowerPlay Accelerator Program."
     }
+    
 ]

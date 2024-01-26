@@ -1,5 +1,32 @@
 [    
+  {
+    "blog": {
+      "heading": " Multiplayr Joins the Gaming Vanguard: A Triumph in the IA PowerPlay Accelerator Program.",
+      "description": "In the pulsating realm of esports, Multiplayr has emerged as a beacon of innovation, and its journey takes an exciting turn with its selection into the India Accelerator's PowerPlay Accelerator Program. Let's explore how Multiplayr's foray into this dynamic accelerator is set to reshape the landscape of esports discovery and tournament organization."
+    },
+    "imageSrc" : "assets/images/blogDetails/Blog3.jpg",
 
+    "points": [
+      {
+        "heading": "IA PowerPlay: Pioneering the Esports Revolution",
+        "description": "At the forefront of this transformative journey is India Accelerator's PowerPlay, a pioneering Esports and Gaming Startup Accelerator committed to fueling the gaming revolution. This accelerator stands as a testament to the vibrant synergy between startups, investors, and the gaming industry, offering a dynamic launchpad for the next generation of gaming visionaries."
+      },
+      {
+        "heading": "Cohort Program: A 16-Week Odyssey to Success",
+        "description": "The heartbeat of IA PowerPlay lies in its immersive 16-week Cohort Program, a tailor-made accelerator designed to expedite the growth of early-stage gaming startups. This comprehensive program offers a roadmap to success, featuring strategic partnerships, mentorship from industry titans, investor readiness guidance, seed capital support, and access to cutting-edge resources. It's a transformative journey that equips startups, including Multiplayr, with the tools to thrive and dominate the gaming landscape."
+      },
+      {
+          "heading": "PowerAngel Network: Gateway to Gaming Investment",
+          "description": "Beyond the startup phase, IA PowerPlay introduces the PowerAngel Network – a vibrant community of angel investors and gaming enthusiasts. This network, backed by India Accelerator, empowers investors to play a pivotal role in shaping the future of gaming. Together, they identify and nurture promising startups, amplifying their growth and impact on the gaming ecosystem."
+      },
+      {
+          "heading": "IA PowerPlay's Core Offerings: Shaping the Future of Esports",
+          "description": "IA PowerPlay doesn't just accelerate startups; it shapes the very future of esports and gaming. For Multiplayr and other participants, the accelerator program offers a transformative 16-week journey.ngiAs Multiplayr embarks on this transformative journey with IA PowerPlay, the stage is set for a revolution in the world of esports. Together, they will reshape the future of play, creating an unparalleled gaming ecosystem that drives innovation, fosters collaboration, and propels startups, including Multiplayr, to unprecedented heights of success."
+      }
+    ]
+  },
+    
+    
     {
       "blog": {
         "heading": "Multiplayr: Forging a New Era in Esports - The Genesis and Vision",
@@ -39,8 +66,7 @@
           
         }
       ]
-    },
-    {
+    },{
       "blog": {
         "heading": "Level Up: Securing a Spot in STPINEXT Initiatives Accelerator Program",
         "description": "In the fast-paced realm of esports, where every click and keystroke matters, innovation is key. For Multiplayr, a groundbreaking esports discovery and tournament organizing platform, being selected for the 3rd cohort of the STPINEXT Initiatives Accelerator Program is more than just a milestone; it's a testament to our vision of transforming the esports landscape. Let's delve into how Multiplayr's journey aligns with the comprehensive offerings of this prestigious accelerator program under the Ministry of Electronics and Information Technology."
@@ -75,35 +101,10 @@
         }
 
     
-]
-    },
-    
-    {
-      "blog": {
-        "heading": " Multiplayr Joins the Gaming Vanguard: A Triumph in the IA PowerPlay Accelerator Program.",
-        "description": "In the pulsating realm of esports, Multiplayr has emerged as a beacon of innovation, and its journey takes an exciting turn with its selection into the India Accelerator's PowerPlay Accelerator Program. Let's explore how Multiplayr's foray into this dynamic accelerator is set to reshape the landscape of esports discovery and tournament organization."
-      },
-      "imageSrc" : "assets/images/blogDetails/Blog3.jpg",
-
-      "points": [
-        {
-          "heading": "IA PowerPlay: Pioneering the Esports Revolution",
-          "description": "At the forefront of this transformative journey is India Accelerator's PowerPlay, a pioneering Esports and Gaming Startup Accelerator committed to fueling the gaming revolution. This accelerator stands as a testament to the vibrant synergy between startups, investors, and the gaming industry, offering a dynamic launchpad for the next generation of gaming visionaries."
-        },
-        {
-          "heading": "Cohort Program: A 16-Week Odyssey to Success",
-          "description": "The heartbeat of IA PowerPlay lies in its immersive 16-week Cohort Program, a tailor-made accelerator designed to expedite the growth of early-stage gaming startups. This comprehensive program offers a roadmap to success, featuring strategic partnerships, mentorship from industry titans, investor readiness guidance, seed capital support, and access to cutting-edge resources. It's a transformative journey that equips startups, including Multiplayr, with the tools to thrive and dominate the gaming landscape."
-        },
-        {
-            "heading": "PowerAngel Network: Gateway to Gaming Investment",
-            "description": "Beyond the startup phase, IA PowerPlay introduces the PowerAngel Network – a vibrant community of angel investors and gaming enthusiasts. This network, backed by India Accelerator, empowers investors to play a pivotal role in shaping the future of gaming. Together, they identify and nurture promising startups, amplifying their growth and impact on the gaming ecosystem."
-        },
-        {
-            "heading": "IA PowerPlay's Core Offerings: Shaping the Future of Esports",
-            "description": "IA PowerPlay doesn't just accelerate startups; it shapes the very future of esports and gaming. For Multiplayr and other participants, the accelerator program offers a transformative 16-week journey.ngiAs Multiplayr embarks on this transformative journey with IA PowerPlay, the stage is set for a revolution in the world of esports. Together, they will reshape the future of play, creating an unparalleled gaming ecosystem that drives innovation, fosters collaboration, and propels startups, including Multiplayr, to unprecedented heights of success."
-        }
       ]
     }
+    
+    
    
   ]
 
