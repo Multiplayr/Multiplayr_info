@@ -185,11 +185,19 @@ font-weight: 700;
     color: white;
     /* cursor: pointer; */
 }
+
+
 .socialIcons i{
     font-size: 40px;
     cursor: pointer;
     margin: 20px;
 }
+.socialIcons i:hover{
+    transform: scale(1.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+so
 
 .footer{
     display: flex;

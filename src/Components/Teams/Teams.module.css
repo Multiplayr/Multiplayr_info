@@ -1,3 +1,8 @@
+.mainContainer{
+  /* background-color: purple; */
+  margin: 0 0;
+}
+
 
 
 .Container{
@@ -7,61 +12,26 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     width: auto;
-    
+    /* background-color: red; */
 }
 
 
 
 .teams{
-    margin-top: 10px 40%;
+    margin-top: 10px 35%;
     /* display: flex; */
     /* flex-direction: row;  */
     /* flex-wrap: wrap;  */
-     justify-content: space-between;
+     justify-content: space-between; 
     /* gap: 20px; */
     width: 100%;
     /* padding-left: 30px; */
     /* padding: 10px 70px; */
-    
-    
-    
-
-}
-
-.head{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
-
-  
+    /* background-color: yellow; */
 }
 
 
-.head_about{
-  display: inline-block;
-  font-size: 15px;
-  letter-spacing: .1em;
-  color: var(--primaryColor);
-  background: linear-gradient(90.99deg,#FDCE39 .27%,#FD8963 30%,#ED5174 98.69%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: 600;
-  text-transform: uppercase;
-
-}
-
-.head_title{
-  margin-top: 0;
-  color: white;
-  font-size: 40px;
-  font-weight: 800;
-  font-family: var(--headingFontFamily);
-}
 
 /* ----------------card item ------------------ */
 
@@ -86,6 +56,8 @@
   }
 
 
-@media (min-width:1600) {
-  
+@media screen and (min-width : 1600px) {
+  .Container{
+    margin: 10px 18%;
+  }
 }

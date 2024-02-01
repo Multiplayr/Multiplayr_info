@@ -113,13 +113,19 @@ const Contact = () => {
                     <div className="footer">
                         <div className={styles.socialItems}>
                             <div className={styles.socialIcons}>
-                                <i className="fa fa-facebook fa-lg " aria-hidden="true"></i>
-                                <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                                <i className="fa fa-twitter fa-lg" aria-hidden="true"></i>
-                                <a href="https://www.linkedin.com/company/multiplayr/about/" target="_blank" rel="noopener noreferrer">
-                                <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                                <a href='https://www.facebook.com/MultiplayrHQ' target='_blank' rel="noopener noreferrer">
+                                     <i className="fa fa-facebook fa-lg " aria-hidden="true"></i>
                                 </a>
-                                <i className="fa fa-youtube fa-lg "></i>
+                                <a href='https://www.instagram.com/multiplayrhq' target='_blank' rel="noopener noreferrer">
+                                     <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                </a>
+                                <a href='https://twitter.com/MultiplayrHQ' target='_blank' rel="noopener noreferrer">
+                                    <i className="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/multiplayr/about/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                                </a>
+                                      <i className="fa fa-youtube fa-lg "></i>
                             </div>
                         </div>
                         <div className={styles.condition}>

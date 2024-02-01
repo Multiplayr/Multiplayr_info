@@ -1,6 +1,7 @@
 .container{
   margin: 0px 0px;
   margin-bottom: 50px;
+  /* background-color: red; */
 }
 
 /* .head{
@@ -32,12 +33,13 @@
   font-family: var(--headingFontFamily);
 } */
 .newsItems{
-  margin: 10px 15%;
+  margin: 10px 10%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start; 
-  gap: 15px;
+  justify-content: space-between; 
+  gap: 20px;
+  /* background-color: aqua; */
 }
 
 
@@ -73,4 +75,11 @@
       
     }
   
+  }
+
+  @media screen and (min-width : 1500px) {
+    .newsItems{
+      margin: 10px 15%;
+    }
+
   }
