@@ -41,7 +41,7 @@ function Home() {
             </div>
             <div className="mt-12 md:mt-2 sm:mt-1 ">
               <Link
-                to="#"
+                to="https://nice-glacier-0f799c700.4.azurestaticsapps.net"
                 className="bg-gray-50 text-black font-heading  font-semibold rounded-lg text-base px-7 lg:px-7 py-2 lg:py-2 mr-2  focus:outline-none "
               >
                 Log in
