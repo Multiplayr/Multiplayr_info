@@ -54,7 +54,7 @@ export default function Header() {
 
           <div className="flex items-center lg:order-2">
             <Link
-              to={"https://nice-glacier-0f799c700.4.azurestaticsapps.net"}
+              to={"https://nice-glacier-0f799c700.4.azurestaticapps.net/login"}
              
               smooth={true}
               duration={500}
