@@ -54,7 +54,7 @@ export default function Header() {
 
           <div className="flex items-center lg:order-2">
             <Link
-              to="/features"
+              to="https://nice-glacier-0f799c700.4.azurestaticsapps.net"
               smooth={true}
               duration={500}
               className="hidden lg:block bg-gray-50 text-black font-semibold rounded-lg text-sm px-6 lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none"
