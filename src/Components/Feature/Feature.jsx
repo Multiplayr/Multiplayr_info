@@ -7,7 +7,7 @@ import { HeadingSection } from "../Common";
 const Feature = () => {
   const [items, setitems] = useState([
     {
-      heading: "targated discovery",
+      heading: "targeted discovery",
       Image: "assets/images/icon/1.png",
 
       des: "Discover feature for teams, players, tournaments, jobs, and coaches based on user specifications.",
