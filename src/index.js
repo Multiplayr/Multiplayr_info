@@ -25,10 +25,22 @@ const router = createBrowserRouter(
       <Route path="contact" element={<Contact />} /> 
       <Route path="news" element={<Blogs />} />
       <Route path="blog" element={<Blogs/>} />
+      //riot text file
+      <Route path="riot.txt" element={<RiotFile />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Route>
     </>)
 );
+
+// Component for serving the riot.txt file
+function RiotFile() {
+  // You can fetch and display the contents of the riot.txt file here
+  return (
+    <div>
+      <p>1a868445-6318-4699-803a-05e93eb53347</p>
+    </div>
+  );
+}
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
