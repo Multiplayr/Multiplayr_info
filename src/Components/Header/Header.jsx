@@ -64,7 +64,7 @@ export default function Header() {
             </Link>
 
             <Link
-              to="https://litepaper.multiplayr.gg/quick-introduction/legal-disclaimer"
+              to="https://litepaper.multiplayr.info/quick-introduction/legal-disclaimer"
               className="sp-btn2 text-black font-heading focus:ring-4 font-semibold rounded-lg text-sm px-6  lg:px-8 py-1.5 lg:py-2 mr-2 focus:outline-none "
             >
               Whitepaper
