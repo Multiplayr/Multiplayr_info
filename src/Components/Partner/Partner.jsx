@@ -8,7 +8,7 @@ export const Partner = () => {
     <div className={styles.container}>
       <HeadingSection
         type={"our partners"}
-        title={"Out Partners & Investors"}
+        title={"Our Partners & Investors"}
       />
       <div className={styles.content}>
         <div className={styles.partners}>
