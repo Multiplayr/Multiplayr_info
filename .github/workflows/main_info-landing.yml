@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - info-landing
+name: Build and deploy Node.js app to Azure Web App - info-multiplayr
 
 on:
   push:
@@ -14,7 +14,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -28,10 +28,15 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-
-      - name: Zip artifact for deployment
-        run: zip release.zip ./build/* -r
-
+      
+      - name: Zip Release
+        uses: TheDoctor0/zip-release@0.7.6
+        with:
+          # Filename for archive
+          filename: release.zip
+          # Base path for archive files
+          path: ./build/*
+          
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
@@ -51,14 +56,11 @@ jobs:
         with:
           name: node-app
 
-      - name: Unzip artifact for deployment
-        run: unzip release.zip
-
       - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
+        id: deploy-to-webapp
         with:
-          app-name: 'info-landing'
+          app-name: 'info-multiplayr'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B35C691DE9D8460DA2CC4E402D7CACE2 }}
-          package: ./build/
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22D01CA31A0D4868A0F6CC8F9A3A8EC4 }}
+          package: release.zip
